@@ -1,0 +1,87 @@
+$grp GenericEntity : "{D0E4F05E07E40B24}Prefabs/Structures/Signs/Military/SignMinefield_01/SignMinefield_01.et" {
+ {
+  coords 5404.152 78.645 5710.698
+  angleY 19.453
+ }
+ {
+  coords 5392.83 76.396 5691.708
+  angleY 167.765
+ }
+ {
+  coords 5431.714 80.832 5702.448
+  angleY 13.748
+ }
+ {
+  coords 5447.342 81.824 5690.303
+  angleY -164.798
+ }
+}
+$grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 5400.442 78.013 5706.339
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 5396.805 77.371 5702.092
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 5391.365 76.99 5705.018
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 5390.914 76.711 5698.928
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 5432.526 80.911 5700.555
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 5436.194 80.981 5695.845
+  angleY -60.9
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 5442.325 81.389 5697.176
+  angleY -60.9
+ }
+ {
+  components {
+   SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+    m_bLive 1
+   }
+  }
+  coords 5445.875 81.636 5692.55
+  angleY -60.9
+ }
+}

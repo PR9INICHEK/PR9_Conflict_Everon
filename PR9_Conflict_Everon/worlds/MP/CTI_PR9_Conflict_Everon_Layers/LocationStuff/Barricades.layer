@@ -1,0 +1,138 @@
+$grp GenericEntity : "{24B7F96197053B39}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_US_01.et" {
+ {
+  coords 8796.678 202.263 3997.239
+  angleY -115.994
+  {
+   GenericEntity {
+    ID "5CC6AA09EB402D5F"
+    coords 1.152 -0.04 0.301
+    angleY 18.331
+   }
+   GenericEntity {
+    ID "5CC6AA09EB402D7A"
+    coords -1.025 -0.015 0.193
+    angleY -7.903
+   }
+   GenericEntity {
+    ID "5CC6B4B0E08C8E09"
+    coords -1.493 0.152 -1.904
+    angleY 61.821
+   }
+   GenericEntity {
+    ID "5CC6B4B0E08C8E56"
+    coords 1.694 0.089 -1.821
+    angleY -92.358
+   }
+   StaticModelEntity {
+    ID "5CC6AA09EB402AA0"
+    coords -0.223 -0.021 0.203
+    angleY -115.019
+   }
+   StaticModelEntity {
+    ID "5CC6AA09EB402A0C"
+    coords 0.989 0.031 -0.774
+    angleY -1.886
+   }
+   StaticModelEntity {
+    ID "5CC6AA09EB402A13"
+    coords -0.924 -0.128 1.661
+    angleY -47.952
+   }
+   StaticModelEntity {
+    ID "5CC6AA09EB402A57"
+    coords 1.82 -0.129 1.292
+    angleY 50.979
+   }
+   StaticModelEntity {
+    ID "5CC6AA09EB402AFE"
+    coords -1.871 0.098 -1.098
+    angleY -120.553
+   }
+   StaticModelEntity {
+    ID "5CC6AA09EB402A8E"
+    coords 1.944 -0.057 0.325
+    angleY -74.751
+   }
+   StaticModelEntity {
+    ID "5CC6AA09EB402AD9"
+    coords -1.984 0.026 -0.133
+    angleY -99.697
+   }
+  }
+ }
+ {
+  coords 3050.367 113.766 5161.983
+  angleY -28.246
+ }
+}
+$grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ {
+  coords 5249.472 34.883 10667.516
+  angleY -89.262
+ }
+ {
+  components {
+   RoadNetworkBridgeComponent "{61609812EEC8E880}" {
+    Points {
+     0 0 9 7 0 3 4 0 -7
+    }
+   }
+  }
+  coords 8193.315 220.896 2213.693
+  angleY 33.149
+ }
+ {
+  coords 3873.115 61.409 7032.324
+  angleY 5.136
+ }
+ {
+  coords 4974.254 24.918 9975.905
+  angleY -106.182
+ }
+ {
+  coords 3067.575 118.438 5248.037
+  angleY 16.395
+ }
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 5045.955 28.166 9972.953
+ angleY 84.85
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2BA0"
+   coords -3.31 -0.101 0.376
+   angleY -165.47
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2BF4"
+   coords -2.889 0.049 2.264
+   angleY 5.604
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2A7C"
+   coords 3.197 0.202 0.913
+   angleY -96.241
+   angleZ 75
+  }
+  GenericEntity {
+   ID "5E5AD06E26C12FE8"
+   coords 3.461 -0.28 -1.088
+   angleY -55.621
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2BDB"
+   coords -3.565 -0.078 0.701
+   angleY -69.67
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2A48"
+   coords -2.955 -0.004 1.59
+   angleY 42.427
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2B00"
+   coords 3.317 -0.128 0.533
+   angleY 103.572
+  }
+ }
+}

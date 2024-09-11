@@ -1,0 +1,184 @@
+GenericEntity : "{047B9C8AAB50CE0F}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MachineGunNest_S_USSR_01.et" {
+ coords 1061.874 2.75 6010.628
+ angleY 179.818
+}
+GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ components {
+  SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+   m_bOrientChildrenToTerrain 0
+  }
+ }
+ coords 1058.127 2.877 6054.715
+ angleX -0.008
+ angleY 35.835
+ angleZ -0.675
+ {
+  GenericEntity {
+   ID "5D1ED92353BB9FF4"
+   coords 3.51 -0.106 -2.945
+   angleY 0.819
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9F82"
+   coords 3.196 -0.131 1.629
+   angleY -90
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9F95"
+   coords 3.296 -0.103 0.133
+   angleY -88.159
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9FE3"
+   coords 3.357 -0.104 -1.785
+   angleY 176.173
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9E3E"
+   coords 5.03 -0.129 0.146
+   angleY 4.513
+  }
+ }
+}
+GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ coords 880.68 3.038 6078.892
+ angleY 33.929
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 1074.117 2.813 6199.68
+ angleY -173.077
+}
+GenericEntity : "{567515087F8ED05F}Prefabs/Compositions/Locations/Eden/Base_LamentinHarbour_FIA_01.et" {
+ coords 1024.018 2.849 6043.247
+ {
+  GenericEntity {
+   ID "5E6ACA2FCDBBBD92"
+   {
+    GenericEntity {
+     ID "5E3A731E2F167706"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593012"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593014"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593015"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2FCDBBBC5C"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E6ACA2FCDBBBC5F"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ coords 1529.831 53.944 5968.977
+ angleX 0.893
+ angleY 94.306
+ angleZ 0.067
+}
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ coords 1532.973 54.908 5960.152
+ angleY 86.772
+ angleZ -13.587
+ {
+  GenericEntity {
+   ID "5CC6B4B0D5E06055"
+   coords 0.88 -0.003 -1.487
+   angleY 115.873
+  }
+  GenericEntity {
+   ID "5CC6B4B0D5E06037"
+   coords -1.599 0.124 -1.835
+   angleY -81.269
+  }
+ }
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 1036.78 2.861 6013.265
+ angleY -179.217
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2BA0"
+   coords -5.397 0.079 2.877
+   angleY -165.47
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2BF4"
+   coords -4.977 0.136 4.765
+   angleY 5.604
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2B94"
+   coords -4.854 0.077 2.887
+   angleY -129.705
+  }
+  GenericEntity {
+   ID "5CC6B4BF288B3FF4"
+   coords -4.615 0.04 1.713
+   angleY -104.623
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2BDB"
+   coords -5.653 0.093 3.204
+   angleY -69.67
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2A48"
+   coords -5.041 0.114 4.092
+   angleY 42.427
+  }
+ }
+}
+GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
+ coords 925.242 2.75 6058.799
+ angleY 36.956
+}
+GenericEntity : "{E4D8BE67FA5175A3}Prefabs/Compositions/Locations/Eden/SupplyCache_Lamentin_FIA_01.et" {
+ coords 1279.669 37.386 5940.503
+ {
+  GenericEntity {
+   ID "5E6ACA23963C1EBF"
+   Flags 1049603
+  }
+ }
+}
+$grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    m_bOrientChildrenToTerrain 0
+   }
+  }
+  coords 1075.962 2.905 6084.289
+  angleY -56.136
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    m_bOrientChildrenToTerrain 0
+   }
+  }
+  coords 1047.79 2.857 6047.054
+  angleY -6.102
+ }
+}

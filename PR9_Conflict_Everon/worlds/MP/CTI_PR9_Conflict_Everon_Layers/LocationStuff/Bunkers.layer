@@ -1,0 +1,36 @@
+$grp GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ {
+  coords 4452.423 59.807 6276.771
+  angleY -11.531
+ }
+ {
+  coords 5298.813 34.414 10719.538
+  angleY 74.242
+ }
+ {
+  coords 3851.36 68.937 6930.453
+  angleY 151.539
+ }
+ {
+  coords 6370.353 19.464 9720.362
+  angleY -128.667
+  angleZ -0.001
+ }
+ {
+  coords 3543.632 180.206 5811.623
+  angleY 47.848
+  angleZ 2.146
+ }
+}
+GenericEntity : "{C7D38772154D45BB}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_US_01.et" {
+ coords 4578.684 68.593 4974.128
+ angleY 71.088
+ {
+  GenericEntity {
+   ID "5CCCBECA91C25D11"
+   coords -3.767 -0.107 -0.863
+   angleX 3.605
+   angleY 79.836
+  }
+ }
+}

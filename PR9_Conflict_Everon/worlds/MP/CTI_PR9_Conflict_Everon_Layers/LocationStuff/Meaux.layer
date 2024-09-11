@@ -1,0 +1,46 @@
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 4534.688 23.827 9722.354
+ angleY 152.916
+ angleZ 4.403
+}
+GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ coords 4297.855 1.13 9532.504
+ angleY 45.123
+}
+GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ coords 4317.285 1.125 9563.502
+ angleY -134.243
+}
+GenericEntity : "{2FAFFD858A8315E6}Prefabs/Compositions/Locations/Eden/SupplyCache_Meaux_FIA_01.et" {
+ coords 4520.45 14.178 9467.978
+ {
+  GenericEntity {
+   ID "5E6ACA23A6B54723"
+   Flags 1049603
+  }
+ }
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 4494.888 15.511 9837.186
+ angleY 22.657
+ angleZ -7.274
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 4582.566 22.792 9768.056
+ angleX 0.001
+ angleY -7.943
+}
+GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
+ coords 4313.67 1.125 9491.603
+ angleY -14.768
+}
+GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
+ coords 4565.19 21.076 9762.881
+ angleX -0.893
+ angleY 3.977
+ angleZ -0.062
+}
+GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ coords 4331.587 1.125 9512.366
+ angleY -108.471
+}

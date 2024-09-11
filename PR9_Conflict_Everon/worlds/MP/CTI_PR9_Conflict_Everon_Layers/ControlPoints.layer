@@ -1,0 +1,123 @@
+CommentEntity AboutNamesOfPrefabs {
+ coords 6387.651 160.901 6457.518
+ angleX 1.786
+ angleY -0.084
+ angleZ -2.685
+ m_Comment "Best practice - use cardinal directions or Town/Village names in the names of points"
+ m_Color 0 0 0
+ m_FaceCamera 1
+ m_TextBackground 1
+ m_BackgroundColor 1 0.597 0
+ m_BackgroundTransparency 0
+}
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ MainBaseNorth {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-MapLocation_StPhillipe"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_North-UC"
+    m_sMapLocationName "LocationStPhillipe_Harbour"
+   }
+  }
+  coords 4405.805 1.643 11035.317
+  angleY 30.231
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -21.936 -0.008 37.67
+   }
+  }
+ }
+ MainBaseSouth {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-MapLocation_StPierre"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_HQ_South-UC"
+    m_sMapLocationName "LocationStPierre_Harbour"
+   }
+  }
+  coords 10172.649 2.628 1539.541
+  angleY -76.653
+ }
+ MajorBaseChotain {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-Campaign_MapLocation_Coastal_Chotain"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Chotain-UC"
+    m_sMapLocationName "LocationChotain_MilitaryBase"
+   }
+  }
+  coords 7473.945 7.866 6694.601
+  angleY -18.505
+ }
+ MajorBaseLamentin {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-Campaign_MapLocation_Coastal_Lamentin"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Lamentin-UC"
+    m_sMapLocationName "LocationLamentin_Harbour"
+   }
+  }
+  coords 1089.461 2.781 6029.319
+  angleY -93.618
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 8.844 -0.062 18.807
+   }
+  }
+ }
+ MajorBaseMorton {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-Campaign_MapLocation_Coastal_Morton"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Morton-UC"
+    m_sMapLocationName "LocationMorton"
+   }
+  }
+  coords 4979.392 2.187 3841.487
+  angleY 29.698
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -13.152 0.001 21.832
+   }
+  }
+ }
+ MilitaryBaseLevie {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-Campaign_MapLocation_Levie_Base"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Levie_Base-UC"
+    m_sMapLocationName "LocationLevie_MilitaryBase"
+   }
+  }
+  coords 7449.13 164.562 4306.381
+  angleY 104.519
+ }
+ MilitaryHospital {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_bIsSupplyHub 1
+    m_sBaseName "#AR-MapLocation_MilitaryHospital"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_MilitaryHospital-UC"
+    m_sMapLocationName "LocationTyrone_MilitaryHospital"
+   }
+  }
+  coords 3938.822 15.811 8455.689
+  angleY -85.707
+ }
+}

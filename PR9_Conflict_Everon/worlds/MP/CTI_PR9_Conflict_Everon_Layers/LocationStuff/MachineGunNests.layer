@@ -1,0 +1,53 @@
+$grp GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ {
+  coords 3454.658 172.061 5735.45
+  angleY -138.327
+ }
+ {
+  coords 6601.89 6.202 3102.842
+  angleY 153.085
+ }
+ {
+  coords 4538.956 63.844 6297.852
+  angleY 95.509
+  angleZ 5.842
+ }
+ {
+  coords 8242.316 223.125 2158.36
+  angleY 154.691
+ }
+ {
+  coords 4997.871 26.694 9859.163
+  angleY -169.199
+ }
+}
+$grp GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ {
+  coords 3312.757 115.644 4389.361
+  angleY 133.508
+ }
+ {
+  coords 6624.522 77.598 5077.192
+  angleY 118.48
+ }
+ {
+  coords 3730.808 58.926 7016.413
+  angleY -101.564
+  angleZ 3.419
+ }
+ {
+  coords 5001.417 26.129 10025.211
+  angleX 0.356
+ }
+}
+$grp GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
+ {
+  coords 4449.026 64.383 5025.768
+  angleY -54.078
+ }
+ {
+  coords 9169.689 74.493 2256.207
+  angleY 153.944
+  angleZ -5.635
+ }
+}

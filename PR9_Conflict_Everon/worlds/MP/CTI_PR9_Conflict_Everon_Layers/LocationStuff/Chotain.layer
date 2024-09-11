@@ -1,0 +1,19 @@
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 7053.219 118.831 6031.875
+ angleY 138.594
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 6964.668 119.319 6033.064
+ angleX 1.548
+ angleY -60.464
+ angleZ -2.122
+}
+GenericEntity : "{908CD23C9EF20E3B}Prefabs/Compositions/Locations/Eden/SupplyCache_Chotain_FIA_01.et" {
+ coords 7086.131 129.414 6012.347
+}
+GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ coords 6954.135 124.538 6091.853
+ angleX 6.753
+ angleY -40.294
+ angleZ 0.675
+}

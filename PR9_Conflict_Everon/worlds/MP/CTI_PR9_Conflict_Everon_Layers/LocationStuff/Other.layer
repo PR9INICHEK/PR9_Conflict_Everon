@@ -1,0 +1,87 @@
+GenericEntity : "{4FDFB70701D6A97A}Prefabs/Compositions/Locations/Eden/Base_MontfortCastle_FIA_01.et" {
+ coords 9315.082 196.166 1144.534
+ {
+  GenericEntity {
+   ID "5E6ACA2E9D11FB3C"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E6ACA2E9D11FB3F"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{D3BED8377828FFCC}Prefabs/Compositions/Locations/Eden/Base_PowerPlant_FIA_01.et" {
+ coords 5834.383 4.572 9786.422
+ {
+  GenericEntity {
+   ID "5E68E844F3143B06"
+   {
+    GenericEntity {
+     ID "5E68FBDF902BB99C"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5E68EB2C6044E7F4"
+       Flags 1049603
+       {
+        GenericEntity {
+         ID "5D36C61EF5BF6C53"
+         Flags 1049603
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5E6ACA2FF01AEC79"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF01AEC87"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF01AEC94"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF01AECB2"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF01AECDF"
+     Flags 1048579
+    }
+    SCR_SpawnPoint {
+     ID "5E6ACA2FF01AEC42"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2D39A925C6"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E68EB2C6044E7F4"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,26 @@
+$grp DecalEntity : "{CA8AB522F7C90A28}Prefabs/Decals/Miscellaneous/CigarButts_01.et" {
+ {
+  coords 5513.298 95.551 6091.646
+  angleX -89.96
+  angleY 121.122
+  angleZ 180
+ }
+ {
+  coords 7552.569 82.731 5505.062
+  angleX -89.972
+  angleY 160.279
+  angleZ -180
+ }
+ {
+  coords 7547.042 82.758 5501.631
+  angleX -89.98
+  angleY 130.252
+  angleZ 180
+ }
+ {
+  coords 7562.955 82.784 5493.819
+  angleX -89.98
+  angleY -79.813
+  angleZ 180
+ }
+}

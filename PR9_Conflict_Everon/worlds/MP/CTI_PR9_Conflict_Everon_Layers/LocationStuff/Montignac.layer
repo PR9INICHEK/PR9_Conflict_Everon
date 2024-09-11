@@ -1,0 +1,96 @@
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 5078.837 177.69 7034.13
+ angleY -47.903
+}
+GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et" {
+ coords 5118.542 170.92 6903.708
+ angleY -138.484
+ {
+  GenericEntity {
+   ID "5CD2AC4D3DDFDC5C"
+   coords -2.563 -0.054 -0.94
+   angleY -92.857
+  }
+ }
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 5185.511 171.443 6970.962
+ angleY 133.807
+ {
+  GenericEntity {
+   ID "5CC6B4BF5DDEF861"
+   coords -2.798 0.072 -2.25
+   angleY -76.767
+  }
+  GenericEntity {
+   ID "5E5AD06D797113DE"
+   coords 2.193 0.067 -2.338
+   angleY -99.208
+  }
+ }
+}
+GenericEntity : "{458D1E40FD79C36D}Prefabs/Compositions/Locations/Eden/SupplyCache_Montignac_FIA_01.et" {
+ coords 4773.455 164.342 7094.566
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 5154.687 170.865 6930.681
+ angleY 134.014
+}
+GenericEntity : "{FB04C4D5947808F1}Prefabs/Compositions/Locations/Eden/Base_MontignacWarehouses_FIA_01.et" {
+ coords 4537.876 155.721 6844.214
+ {
+  GenericEntity {
+   ID "5E6ACA2C51398426"
+   {
+    GenericEntity {
+     ID "5E3A731E2F167706"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593012"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593014"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593015"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2C5139871E"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E6ACA2C5139871B"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6B01A974EBE924"
+   Flags 1048579
+  }
+  GenericEntity {
+   ID "5E6B01A974EBE937"
+   Flags 1048579
+  }
+  GenericEntity {
+   ID "5E6B01A974EBE94C"
+   Flags 1048579
+  }
+  SCR_SpawnPoint {
+   ID "5E6B01A974EBE91B"
+   Flags 1048579
+  }
+ }
+}

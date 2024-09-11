@@ -1,0 +1,96 @@
+GenericEntity : "{1CF4014D7086BE9F}Prefabs/Compositions/Locations/Eden/Base_Airport_FIA_01.et" {
+ coords 4900.952 28.595 11787.412
+ {
+  GenericEntity {
+   ID "5E6ACA2CDC303E03"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E6ACA2CDC303E0D"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2CDC303FD8"
+   {
+    GenericEntity {
+     ID "5E3A7310C995AE11"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A7311796AB459"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A7311796AB47F"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A7311796AB5B3"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2CDC303E8F"
+   {
+    GenericEntity {
+     ID "5E6ACA2FF8E39CE6"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F02"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F15"
+     Flags 1048579
+    }
+    SCR_SpawnPoint {
+     ID "5E6ACA2FF8E39F2B"
+     Flags 1048579
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ coords 4931.403 28.469 11986.469
+ angleY -179.952
+}
+GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ coords 4938.753 28.5 11983.813
+ angleY -93.119
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 4993.671 28.254 11985.85
+ angleY 91.816
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 4957.817 28.281 11965.25
+ angleY 180
+}
+GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
+ coords 4944.24 28.416 11863.355
+ angleY 88.201
+}
+GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ coords 4868.331 25.179 12046.349
+ angleX 0.04
+ angleY -116.259
+ angleZ 2.669
+ {
+  GenericEntity {
+   ID "5E5CB3014284530D"
+   coords -0.956 -0.045 0.779
+   angleY 97.378
+  }
+ }
+}

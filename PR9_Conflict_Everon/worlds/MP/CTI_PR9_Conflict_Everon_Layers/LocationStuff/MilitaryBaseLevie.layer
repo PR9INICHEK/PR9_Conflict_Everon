@@ -1,0 +1,270 @@
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 7359.513 163.998 4274.676
+ angleY -68.172
+}
+GenericEntity : "{1A7FB3493A1B029F}Prefabs/Compositions/Locations/Eden/Base_LevieMilitary_FIA_01.et" {
+ coords 7505.482 165.761 4283.153
+ {
+  GenericEntity {
+   ID "5E6ACA2F4A7016D5"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E68EB2C6044E7F4"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A701731"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E72E52CA8"
+     Flags 1049603
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A701748"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E72E52CA8"
+     Flags 1049603
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A701784"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 1049603
+    }
+    GenericEntity {
+     ID "5E3A731E72E52CA8"
+     Flags 1049603
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A7017C9"
+   {
+    GenericEntity {
+     ID "5E3A731B88FA2A43"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731B1F444C08"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731B1F444C2C"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731B1F444C45"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731B1F444C6C"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A701664"
+   {
+    GenericEntity {
+     ID "5E6ACA2FF8E39CE6"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F02"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F15"
+     Flags 1048579
+    }
+    SCR_SpawnPoint {
+     ID "5E6ACA2FF8E39F2B"
+     Flags 1048579
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ coords 7624.807 166.844 4315.112
+ angleY -162.665
+}
+$grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ {
+  coords 7584.575 166.844 4328.01
+  angleY -167.146
+ }
+ {
+  coords 7601.512 166.156 4227.194
+  angleY -76.679
+ }
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 7492.978 165.76 4243.532
+ angleY -161.833
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 7533.946 166.844 4194.496
+ angleY -140.972
+}
+GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ coords 7534.083 163.99 4393.799
+ angleX -2.16
+ angleY 3.567
+ {
+  GenericEntity {
+   ID "5CC6B4BB10618CA2"
+   coords 4.146 0 -4.118
+   {
+    GenericEntity {
+     ID "5CB0D996E74F360C"
+     coords 1.087 0 0.032
+    }
+    GenericEntity {
+     ID "5CB0D996E74F360F"
+     coords -0.876 0 -0.048
+    }
+    GenericEntity {
+     ID "5CB0D996E74F360B"
+     coords 0 0.666 -0.001
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4BB10618E84"
+   coords 2.007 0 -4.231
+  }
+  GenericEntity {
+   ID "5CC6B4BB10618EB8"
+   coords 5.503 0 -2.322
+  }
+  GenericEntity {
+   ID "5CC6B4BB10618FEE"
+   coords 3.604 0 -2.973
+   {
+    GenericEntity {
+     ID "5CB0D993388817E2"
+     coords 0.088 0.861 -0.264
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4B980DA08EA"
+   coords 3.851 0.1 -2.753
+  }
+  GenericEntity {
+   ID "5CC6B4BB10618ED8"
+   coords 5.115 0 3.63
+  }
+  GenericEntity {
+   ID "5CC6B4BB6C3C365C"
+   coords 2.551 0 -3.318
+  }
+  StaticModelEntity {
+   ID "5CC6B4BB10618F59"
+   coords 5.094 0 -2.624
+  }
+  StaticModelEntity {
+   ID "5CC6B4BB10618F70"
+   coords 5.023 0 4.348
+  }
+  StaticModelEntity {
+   ID "5CC6B4BB10618FCD"
+   coords 4.806 0.1 3.533
+  }
+  StaticModelEntity {
+   ID "5CC6B4BB10618FD8"
+   coords 4.876 0.1 2.033
+  }
+ }
+}
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ coords 7510.135 166.701 4212.704
+ angleY -97.461
+}
+$grp GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
+ {
+  coords 7608.631 166.812 4320.824
+  angleY 106.904
+  {
+   GenericEntity {
+    ID "5D1ED92199D182E9"
+    coords 3.054 -0.063 -4.186
+    angleY -10.521
+   }
+   GenericEntity {
+    ID "5D1ED92199D182F7"
+    coords 3.073 -0.068 -4.994
+    angleY -57.298
+   }
+   StaticModelEntity {
+    ID "5D1ED92199D18266"
+    coords 3.238 -0.078 -6.075
+   }
+   StaticModelEntity {
+    ID "5D1ED92199D1823E"
+    coords 3.62 -0.06 4.883
+    angleY 14.646
+   }
+  }
+ }
+ {
+  coords 7614.017 166.844 4276.842
+  angleY 105.821
+  {
+   GenericEntity {
+    ID "5D1ED92199D1825C"
+    coords 1.493 0 4.78
+   }
+   GenericEntity {
+    ID "5D1ED92199D182C3"
+    coords -2.628 0 4.205
+   }
+  }
+ }
+}
+$grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ {
+  coords 7595.885 166.832 4325.688
+  angleY -165.551
+ }
+ {
+  coords 7605.477 166.156 4234.577
+  angleY -74.936
+ }
+}

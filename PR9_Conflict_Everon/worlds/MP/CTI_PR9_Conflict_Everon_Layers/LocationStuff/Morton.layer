@@ -1,0 +1,27 @@
+GenericEntity : "{0E2B16A0A7DF365D}Prefabs/Compositions/Locations/Eden/SupplyCache_Morton_FIA_01.et" {
+ coords 5135.238 13.126 4011.78
+}
+GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
+ coords 4890.51 2.505 3890.655
+ angleX 3.237
+ angleY -57.24
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 5045.674 2.225 3834.663
+ angleY 90.685
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 5075.571 5.818 3860.242
+ angleY 80.396
+ {
+  GenericEntity {
+   ID "5CD2AC4D3DDFDC5C"
+   coords -2.563 -0.309 -0.94
+   angleY -92.857
+  }
+ }
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 4904.209 2.167 3880.523
+ angleY -149.431
+}

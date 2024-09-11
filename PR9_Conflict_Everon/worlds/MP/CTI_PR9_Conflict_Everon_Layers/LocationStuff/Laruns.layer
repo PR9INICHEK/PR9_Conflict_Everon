@@ -1,0 +1,89 @@
+GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
+ coords 7093.163 116.934 5439.261
+ angleY -110.046
+ {
+  GenericEntity {
+   ID "5CC6B4BF606E2876"
+   coords -1.829 0.093 -1.133
+   angleY 88.49
+  }
+  GenericEntity {
+   ID "5CC6B4BF606E2850"
+   coords 1.256 -0.001 -1.752
+   angleY -102.765
+  }
+ }
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 7452.53 110.303 5334.355
+ angleX -8.538
+ angleY 74.959
+ angleZ 0.98
+ {
+  GenericEntity {
+   ID "5CC6B4BF5DDEF861"
+   coords -2.802 0.244 -2.286
+   angleY -76.767
+  }
+  GenericEntity {
+   ID "5E5AD06D797113DE"
+   coords 2.191 0.098 -2.352
+   angleY -99.208
+  }
+ }
+}
+GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
+ coords 7358.398 122.306 5202.508
+ angleY -45.886
+}
+GenericEntity : "{59DE9F68F4D2A490}Prefabs/Compositions/Locations/Eden/SupplyCache_Laruns_FIA_01.et" {
+ coords 7558.335 82.526 5540.854
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 7481.542 108.214 5255.674
+ angleY 160.286
+}
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 7429.288 112.639 5318.843
+  angleX -4.278
+  angleY 29.3
+  angleZ 5.772
+ }
+ {
+  coords 7446.674 111.59 5298.952
+  angleX -10.031
+  angleY 67.919
+  angleZ 1.194
+ }
+}
+StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+ coords 7097.957 0 5426.217
+ angleY -93.048
+}
+GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+ coords 7095.472 117.029 5430.207
+ angleX -0.109
+ angleY -130.1
+ angleZ 1.262
+}
+$grp StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
+ {
+  components {
+   Hierarchy "{5CCCBEF313566EFF}" {
+    Enabled 1
+   }
+  }
+  coords 7099.184 -0.346 5425.8
+  angleY -58.583
+ }
+ {
+  components {
+   Hierarchy "{5CCCBEF313566EFF}" {
+    Enabled 1
+   }
+  }
+  coords 7096.707 -0.204 5426.541
+  angleY -72.176
+ }
+}

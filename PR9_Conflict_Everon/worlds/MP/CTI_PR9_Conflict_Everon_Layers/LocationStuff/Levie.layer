@@ -1,0 +1,217 @@
+GenericEntity : "{152E7C3355906BA9}Prefabs/Compositions/Locations/Eden/SupplyCache_Levie_FIA_01.et" {
+ coords 7464.442 142.167 4738.911
+}
+GenericEntity : "{18B92018CF634D22}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_US_03.et" {
+ coords 7540.508 132.559 4806.127
+ angleX 0.362
+ angleY 46.253
+ angleZ -5.636
+}
+GenericEntity : "{55D508179EF5E64A}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_US_01.et" {
+ coords 7458.276 136.97 4745.897
+ angleY -96.24
+ {
+  GenericEntity {
+   ID "5CC6B4B11E89361A"
+   coords -5.383 -0.074 -3.612
+   angleX 4.829
+   angleY 0.079
+   angleZ 1.883
+  }
+  GenericEntity {
+   ID "5CC6B4B11E8936F9"
+   coords 5.595 0 4.519
+   angleY -16.554
+  }
+  GenericEntity {
+   ID "5CC6B4B11E8937BE"
+   coords -2.396 -0.137 2.093
+   angleY 14.182
+  }
+  GenericEntity {
+   ID "5CC6B4B11E893627"
+   coords -4.528 -0.069 0.154
+   angleY 62.828
+  }
+  GenericEntity {
+   ID "5CC6B4B11E893648"
+   coords -2.609 -0.151 1.835
+   angleY -10.993
+  }
+  GenericEntity {
+   ID "5CC6B4B11E893607"
+   coords -1.383 -0.083 4.451
+   angleX 30.58
+  }
+  GenericEntity {
+   ID "5CC6B4B11E893663"
+   coords -3.648 -0.142 2.139
+   angleY 44.542
+  }
+  GenericEntity {
+   ID "5CC6B4B11E893781"
+   coords -3.34 -0.117 2.633
+   angleX 1.279
+   angleY 28.545
+   angleZ -88.641
+  }
+  GenericEntity {
+   ID "5CC6B4B11E893797"
+   coords -3.688 -0.13 2.398
+   angleY -3.003
+  }
+  GenericEntity {
+   ID "5CC6B4B11E89349C"
+   coords -4.357 -0.137 1.893
+   angleY 90
+  }
+  GenericEntity {
+   ID "5CC6B4B11E89342B"
+   coords -2.578 -0.095 3.766
+   angleY 0
+   {
+    GenericEntity {
+     ID "570C956566ECAA57"
+     coords -0.077 -0.011 -0.466
+     angleY -88.083
+    }
+    GenericEntity {
+     ID "570CFD7584B8E353"
+     coords 1.534 0.013 -0.738
+     angleY 93.588
+    }
+    GenericEntity {
+     ID "570CFD7584B8E361"
+     coords 1.144 -0.001 -0.207
+     angleY -178.083
+    }
+    GenericEntity {
+     ID "570CFD7584B8E3D4"
+     coords -1.188 0.023 -0.118
+     angleY 2.218
+    }
+    GenericEntity {
+     ID "570CFD7584B8ECDD"
+     coords -1.711 0.038 -0.534
+     angleY 93.588
+    }
+    GenericEntity {
+     ID "570CFD756A2B77AA"
+     coords -0.131 -0.011 -0.453
+    }
+    StaticModelEntity {
+     ID "570CFD7584B8ECE0"
+     coords -0.228 0.011 0.244
+     angleY 3.368
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4B11E8937A8"
+   coords -1.964 -0.12 2.424
+   angleY -39.443
+  }
+  GenericEntity {
+   ID "5CC6B4B11E893636"
+   coords -4.411 -0.023 4.401
+   angleX 40.027
+   angleY -9.974
+  }
+  GenericEntity {
+   ID "5CC6B4B11E893405"
+   coords -1.275 -0.081 4.739
+   angleY 3.07
+  }
+  GenericEntity {
+   ID "5CC6B4B11E8937DB"
+   coords -3.844 -0.205 0.423
+   angleY -20.948
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     coords 0 0 0
+     angleX -90
+     angleY 180
+     angleZ -180
+    }
+   }
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E8934B4"
+   coords -5.31 -0.153 -4.371
+   angleX 0.561
+   angleY -105.061
+   angleZ -5.152
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E8934E8"
+   coords 5.169 0 5.207
+   angleY 7.752
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E89372C"
+   coords 6.209 0 2.731
+   angleY -17.15
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E893744"
+   coords 5.718 0 3.97
+   angleY -35.328
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E89377E"
+   coords -5.105 -0.183 -3.162
+   angleX 5.183
+   angleY -21.255
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E8937F7"
+   coords -4.336 -0.195 0.608
+   angleY -37.563
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E8934F1"
+   coords -0.36 -0.037 4.15
+   angleY 84.366
+  }
+ }
+}
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ coords 7456.592 137.147 4737.094
+ angleX 0.359
+ angleY -99.802
+ angleZ 2.769
+}
+GenericEntity : "{AF770C825EA592CF}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_US_01.et" {
+ coords 7454.021 137.523 4727.203
+ angleY -65.152
+}
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 7502.382 126.814 4900.806
+  angleY 49.425
+  {
+   GenericEntity {
+    ID "5E5CB3014284530D"
+    coords -0.963 -0.004 0.779
+    angleY 97.378
+   }
+   GenericEntity {
+    ID "5D1ED93DEBE99308"
+    coords -2.52 0.105 0.375
+    angleY -95.729
+   }
+   GenericEntity {
+    ID "5D1ED93DEBE99369"
+    coords 5.43 -0.065 -1.509
+    angleY -73.983
+   }
+  }
+ }
+ {
+  coords 7508.583 133.001 4800.065
+  angleX 1.679
+  angleY 96.331
+  angleZ -6.982
+ }
+}

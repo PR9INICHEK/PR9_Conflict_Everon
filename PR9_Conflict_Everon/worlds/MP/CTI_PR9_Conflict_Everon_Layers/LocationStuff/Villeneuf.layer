@@ -1,0 +1,109 @@
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 2817.325 82.102 6478.756
+ angleX -2.879
+ angleY -26.065
+}
+GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ coords 2858.825 81.201 6436.084
+ angleY -115.542
+}
+$grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ {
+  coords 3001.729 28.808 6953.782
+  angleY -30.772
+ }
+ {
+  coords 2982.901 28.323 6961.398
+  angleY -10.631
+  angleZ 8.598
+  {
+   GenericEntity {
+    ID "5CC6ADB1E43AEBF8"
+    {
+     DecalEntity {
+      ID "56E0B29E17039037"
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2994.963 28.27 6954.054
+  angleX -13.479
+  angleY -1.525
+  angleZ -2.438
+ }
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 2988.716 27.941 6958.368
+ angleX -5.869
+ angleY 37.861
+ angleZ -1.17
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2BA0"
+   coords -2.505 0 0.937
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2BF4"
+   coords -2.085 0 2.825
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2B94"
+   coords -1.962 0 0.947
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     coords 0 0 0.001
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2A7C"
+   coords 2.044 0.188 -1.988
+  }
+  GenericEntity {
+   ID "5CC6B4BF288B3FF4"
+   coords -2.927 0 0.412
+  }
+  GenericEntity {
+   ID "5E5AD06E26C12FE8"
+   coords 2.308 0.1 -4.007
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2BDB"
+   coords -2.761 0 1.264
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2A48"
+   coords -2.149 0 2.151
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2B00"
+   coords 2.163 -0.147 -2.372
+   angleY 103.572
+  }
+ }
+}
+GenericEntity : "{B923EE8B7D881891}Prefabs/Compositions/Locations/Eden/SupplyCache_Villeneuf_FIA_01.et" {
+ coords 2838.686 86.345 6339.803
+}
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 2983.557 79.38 6518.584
+  angleY 66.994
+ }
+ {
+  coords 2878.605 78.109 6467.65
+  angleX 1.483
+  angleY 152.032
+  angleZ -4.829
+ }
+ {
+  coords 2853.55 78.389 6521.846
+  angleX 1.543
+  angleY -59.561
+  angleZ 0.907
+ }
+}

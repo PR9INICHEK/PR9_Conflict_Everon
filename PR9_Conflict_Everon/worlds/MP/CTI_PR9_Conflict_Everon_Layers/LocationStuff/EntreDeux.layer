@@ -1,0 +1,125 @@
+GenericEntity : "{1CA1A82176D652AD}Prefabs/Compositions/Locations/Eden/SupplyCache_EntreDeux_FIA_01.et" {
+ coords 5766.788 221.968 7035.573
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 5612.623 212.711 7091.615
+ angleX -10.08
+ angleY -113.711
+ angleZ 3.665
+}
+$grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ {
+  coords 5595.281 210.204 7108.624
+  angleX 2.608
+  angleY 11.361
+  angleZ -9.167
+ }
+ {
+  coords 5608.718 212.241 7107.867
+  angleX -9.422
+  angleY -85.754
+  angleZ -1.423
+  {
+   GenericEntity {
+    ID "5CC6B4B0D5E06055"
+    coords 0.889 0.327 -1.541
+    angleY 115.873
+   }
+   GenericEntity {
+    ID "5CC6B4B0D5E06037"
+    coords -1.633 -0.167 -1.807
+    angleY -81.269
+   }
+  }
+ }
+ {
+  coords 5589.996 209.336 7109.917
+  angleX 3.612
+  angleY 17.709
+  angleZ -8.823
+ }
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 5962.567 217.848 7100.559
+ angleX -5.658
+ angleY 120.598
+ angleZ 2.518
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 5612.271 212.485 7099.749
+ angleX -6.409
+ angleY -83.142
+ angleZ 1.023
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2BA0"
+   coords -2.379 -0.037 0.77
+   angleY -165.47
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2BF4"
+   coords -1.959 -0.044 2.657
+   angleY 5.604
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2B94"
+   coords -1.837 -0.011 0.776
+   angleY -129.705
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     coords -0.001 0 0
+     angleX -90
+     angleY -178.755
+     angleZ -177.754
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2A7C"
+   coords 2.577 0.26 -1.966
+  }
+  GenericEntity {
+   ID "5CC6B4BF288B3FF4"
+   coords -2.8 -0.052 0.246
+   angleY -104.623
+  }
+  GenericEntity {
+   ID "5E5AD06E26C12FE8"
+   coords 2.839 0.1 -3.966
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2BDB"
+   coords -2.634 -0.052 1.097
+   angleY -69.67
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2A48"
+   coords -2.022 -0.032 1.983
+   angleY 42.427
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2B00"
+   coords 2.697 0 -2.345
+  }
+ }
+}
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 6038.329 213.366 7182.896
+  angleY 135.099
+  angleZ -2.911
+ }
+ {
+  coords 5993.533 217.374 7154.284
+  angleX 2.151
+  angleY -126.835
+  angleZ -6.059
+ }
+ {
+  coords 5981.554 218.517 7177.866
+  angleX 5.946
+  angleY -107.778
+  angleZ -1.903
+ }
+}

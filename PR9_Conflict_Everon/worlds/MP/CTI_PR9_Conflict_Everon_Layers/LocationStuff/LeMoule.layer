@@ -1,0 +1,19 @@
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 2487.408 94.955 5390.334
+ angleX -7.272
+ angleY 132.657
+ angleZ 2.105
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 2418.171 101.188 5376.154
+ angleX 0.001
+ angleY 173.53
+ angleZ -3.74
+}
+GenericEntity : "{C634CB20BED9C7D5}Prefabs/Compositions/Locations/Eden/SupplyCache_LeMoule_FIA_01.et" {
+ coords 2615.962 92.06 5378.784
+}
+GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ coords 2429.25 113.841 5528.771
+ angleY 86.294
+}

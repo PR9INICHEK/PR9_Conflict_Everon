@@ -1,0 +1,167 @@
+GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
+ components {
+  RoadNetworkBridgeComponent "{6160980DF3FD3F2C}" {
+   Points {
+    0 0 -8 -7 0 -2 -7 0 2 2 0 8
+   }
+  }
+ }
+ coords 4392.816 1.593 11045.454
+ angleY -151.936
+}
+$grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ {
+  coords 4434.091 5.811 11205.86
+  angleY 85.611
+ }
+ {
+  coords 4474.851 1.531 11132.911
+  angleY -151.527
+ }
+}
+GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ coords 4409.018 1.594 11211.245
+ angleY -97.026
+}
+GenericEntity : "{55D508179EF5E64A}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_US_01.et" {
+ components {
+  RoadNetworkBridgeComponent "{6160980834246132}" {
+   Points + {
+    0 0 -20
+   }
+  }
+ }
+ coords 4451.8 1.887 11055.726
+ angleY 120.204
+ {
+  GenericEntity {
+   ID "5CC6B4B11E89370B"
+   coords 4.168 0 -3.274
+   {
+    GameEntity {
+     ID "5CB0D9933603DA88"
+     coords 0.238 0.872 -0.241
+    }
+    GenericEntity {
+     ID "5CB0D9933603DA84"
+     coords -0.146 0.867 -0.259
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4B11E8937E5"
+   coords 3.085 0 -3.172
+   {
+    GenericEntity {
+     ID "5CB0D9961B4C3BD5"
+     coords 0 0.194 0.02
+    }
+    GenericEntity {
+     ID "5CB0D9961B4C3BD7"
+     coords -0.039 0 0.007
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4B11E8936CD"
+   coords 2.306 0 -3.933
+  }
+  GenericEntity {
+   ID "5CC6B4B11E893654"
+   coords 3.964 0 -2.978
+   {
+    DecalEntity {
+     ID "56E0B29E17039037"
+     coords 0 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4B11E893405"
+   coords -1.276 0.179 4.739
+  }
+  GenericEntity {
+   ID "5CC6B4B11E8936F9"
+   coords 5.355 0.171 3.544
+   angleY 8.368
+  }
+  GenericEntity {
+   ID "5CC6B4B11E8936EA"
+   coords 5.476 0 -3.833
+  }
+  GenericEntity {
+   ID "5CC6B4B11E8935B6"
+   coords 3.748 0 -4.294
+   {
+    GenericEntity {
+     ID "5CB0D9910F799424"
+     coords 1.017 0 0.06
+    }
+    GenericEntity {
+     ID "5CB0D9910F799427"
+     coords -1.184 0 -0.03
+    }
+    GenericEntity {
+     ID "5CB0D9910F799422"
+     coords -0.154 0 0.066
+    }
+    GenericEntity {
+     ID "5CB0D9910F79942E"
+     coords -0.001 0.741 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4BFB9A7B213"
+   coords 5.062 -0.016 -2.467
+   angleY -126.27
+  }
+  GenericEntity {
+   ID "5CC6B4BFB9A7B2CB"
+   coords 2.182 -0.138 -5.837
+   angleY -138.829
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E8934AE"
+   coords 2.195 0 -3.408
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E8934DC"
+   coords 5.516 0 -3.164
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E8934E8"
+   coords 5.26 0.198 4.348
+   angleY 32.674
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E89372C"
+   coords 5.159 0.099 1.667
+   angleY 7.772
+  }
+  StaticModelEntity {
+   ID "5CC6B4B11E893744"
+   coords 5.236 0.152 2.996
+   angleY -10.406
+  }
+ }
+}
+$grp GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
+ {
+  coords 4466.275 5.749 11212.697
+  angleY 88.861
+ }
+ {
+  coords 4486.781 1.531 11124.681
+  angleY -150
+ }
+}
+GenericEntity : "{CE05A668A373BB44}Prefabs/Compositions/Locations/Eden/SupplyCache_StPhillipe_FIA_01.et" {
+ coords 4502.756 14.702 10771.987
+ {
+  GenericEntity {
+   ID "5E6ACA2329696EE2"
+   Flags 1049603
+  }
+ }
+}

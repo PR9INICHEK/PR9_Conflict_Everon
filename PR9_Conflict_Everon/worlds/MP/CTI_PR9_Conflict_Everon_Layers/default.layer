@@ -1,0 +1,35 @@
+SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5AF8B9A1D80D8DFA}" : "{568C7122442FC9F2}Configs/Navmesh/Navmesh_CTI_Campaign_Eden_Soldier.conf" {
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{598EDE772036D79B}" : "{A3D6AEFB172D819C}Configs/Navmesh/Navmesh_CTI_Campaign_Eden_Vehicle.conf" {
+    }
+   }
+  }
+ }
+ coords 4772.179 26.323 10658.781
+ m_iActiveAILimit 180
+}
+RadioManagerEntity {
+ coords 2884.968 91.924 6293.253
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 20.291 0 5.837
+}
+ItemPreviewManagerEntity ItemPreviewManagerEntity1 {
+ coords -0.018 0 0.077
+ PreviewWorld "{4391FE7994EE6FE2}Prefabs/World/Game/InventoryPreviewWorld.et"
+ DefaultRenderAttributes PreviewRenderAttributes "{52EF3E2AF2E07544}" {
+ }
+}
+SCR_MapLocator {
+ coords 10434.78 0 1142.689
+ m_WorldDirections SCR_MapLocationQuadHint "{5AAA8B37D1168EEB}" : "{ABA21F381437DFE8}Configs/Map/MapLocatorHints/LocationHintsEveron.conf" {
+ }
+}

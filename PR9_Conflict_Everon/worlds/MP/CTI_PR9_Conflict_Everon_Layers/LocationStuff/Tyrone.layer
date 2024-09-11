@@ -1,0 +1,64 @@
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 4915.191 49.294 8944.543
+ angleY -2.558
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 4922.665 36.26 9180.522
+ angleY -51.224
+}
+GenericEntity : "{58CF761823C96210}Prefabs/Compositions/Locations/Eden/SupplyCache_Tyrone_FIA_01.et" {
+ coords 4927.979 36.042 9092.888
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 5070.727 48.662 8914.913
+ angleY 67.276
+ angleZ -5.684
+ {
+  GenericEntity {
+   ID "5CCCBED96B5A22B1"
+   coords 2.93 0 -1.214
+   angleX -2.08
+   angleY -71.27
+   angleZ 4.447
+  }
+ }
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 5032.892 41.446 9014.437
+ angleY 11.525
+ angleZ -1.048
+}
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ coords 4937.25 36.368 9183.537
+ angleY -10.478
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 4929.758 36.25 9183.337
+ angleX 0.815
+ angleY -24.386
+ angleZ -0.37
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2A7C"
+   coords 2.535 0 -2.238
+   angleY -96.241
+   angleZ 75
+  }
+  GenericEntity {
+   ID "5E5AD06E26C12FE8"
+   coords 2.801 0.021 -4.236
+   angleY -55.621
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2B00"
+   coords 2.657 0 -2.614
+   angleY 103.572
+  }
+ }
+}
+GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ coords 5022.903 46.118 8950.792
+ angleX -6.1
+ angleY 30.299
+ angleZ 1.597
+}

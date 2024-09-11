@@ -1,0 +1,42 @@
+GenericEntity : "{1A9D75D98DC825E7}Prefabs/Compositions/Locations/Eden/SupplyCache_Provins_FIA_01.et" {
+ coords 5486.487 96.127 6087.397
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 5534.842 88.882 5895.88
+ angleY -175.522
+}
+GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ coords 5596.875 91.775 5949.226
+ angleX 2.609
+ angleY -4.587
+}
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 5631.312 90.437 5873.712
+  angleY 158.599
+  angleZ 2.974
+  {
+   GenericEntity {
+    ID "5E5CB3014284530D"
+    coords -0.955 -0.064 0.779
+    angleY 97.378
+   }
+   GenericEntity {
+    ID "5D1ED93DEBE99308"
+    coords -2.516 -0.09 0.375
+    angleY -95.729
+   }
+   GenericEntity {
+    ID "5D1ED93DEBE99369"
+    coords 5.418 0.237 -1.51
+    angleY -73.983
+   }
+  }
+ }
+ {
+  coords 5577.302 90.044 5921.642
+  angleX 3.761
+  angleY 52.415
+  angleZ 0.489
+ }
+}

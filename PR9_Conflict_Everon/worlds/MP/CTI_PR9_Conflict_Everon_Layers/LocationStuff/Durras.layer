@@ -1,0 +1,87 @@
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 8921.443 92.864 2624.49
+ angleY -169.766
+}
+GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
+ coords 8830.251 94.754 2732.313
+ angleY 145.413
+ {
+  GenericEntity {
+   ID "5CC6B4BF606E2876"
+   coords -2.487 0.109 -1.15
+   angleY 88.49
+  }
+  GenericEntity {
+   ID "5CC6B4BF606E2850"
+   coords 1.255 -0.01 -1.752
+   angleY -102.765
+  }
+ }
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 8902.373 96.142 2684.879
+ angleY -106.93
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 9071.07 117.536 2660.168
+ angleY -129.598
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 8885.481 95.157 2756.451
+ angleY -10.422
+}
+GenericEntity : "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et" {
+ coords 9038.502 124.559 2762.438
+ angleY -75.732
+}
+GenericEntity : "{D523CF2B952C71A9}Prefabs/Compositions/Locations/Eden/SupplyCache_Durras_FIA_01.et" {
+ coords 8826.849 94.671 2745.832
+}
+GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+ coords 8824.232 94.783 2727.977
+ angleX 0.272
+ angleY 156.007
+ angleZ 0.364
+ {
+  GenericEntity {
+   ID "5CC6B48E65457D2D"
+   coords 2.922 0.16 -1.947
+   angleY -13.651
+  }
+  GenericEntity {
+   ID "5CC6B48E65457D11"
+   coords 1.054 0.1 -0.693
+  }
+  GenericEntity {
+   ID "5CC6B48E65457D0D"
+   coords 3.365 0.161 -1.872
+   angleY 24.374
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     coords 0 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4BF3343B4E9"
+   coords -2.737 -0.018 -2.404
+   angleY -74.916
+  }
+  GenericEntity {
+   ID "5E5AD06EF546637B"
+   coords 3.072 0.137 -4.403
+   angleY -103.077
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457D46"
+   coords 4.014 0.159 -2.569
+   angleY -20.063
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457AD1"
+   coords 3.205 0.157 -2.748
+   angleY -78.438
+  }
+ }
+}

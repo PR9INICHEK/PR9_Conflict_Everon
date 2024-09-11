@@ -1,0 +1,106 @@
+GenericEntity : "{2390B74D062A2D13}Prefabs/Compositions/Locations/Eden/Base_ChotainMilitary_FIA_01.et" {
+ coords 7447.122 7.894 6704.909
+ {
+  GenericEntity {
+   ID "5E6ACA2FA4C6BE5C"
+   {
+    GenericEntity {
+     ID "5E3A731E2F167706"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593012"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593014"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593015"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2FA4C6BEA5"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E68EB2C6044E7F4"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2FA4C6B168"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E72E52CA8"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2FA4C6B1C1"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E72E52CA8"
+     Flags 1048579
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 7462.609 3.748 6647.503
+ angleX 3.468
+ angleY -145.518
+ angleZ 0.826
+}
+$grp GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ {
+  coords 7358.015 10.309 6675.261
+  angleY -43.56
+ }
+ {
+  coords 7389.424 9.676 6758.691
+  angleY -52.54
+ }
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 7517.815 5.65 6775.177
+ angleY 34.028
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 7408.208 5.448 6620.463
+ angleX -7.75
+ angleY -157.735
+ angleZ -4.602
+}
+GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ coords 7429.979 9.688 6796.036
+ angleY 125.189
+}

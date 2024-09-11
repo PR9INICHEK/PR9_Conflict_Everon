@@ -1,0 +1,89 @@
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 5090.986 53.687 5498.467
+}
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ coords 5211.261 73.481 5097.009
+ angleY -67.059
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 5218.795 73.349 5108.347
+ angleX -3.632
+ angleY -1.831
+ angleZ -1.671
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2BA0"
+   coords -2.896 0.066 1.313
+   angleY -165.47
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2BF4"
+   coords -2.477 0.089 3.198
+   angleY 5.604
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2B94"
+   coords -2.353 0.057 1.322
+   angleY -129.705
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     coords 0 0 0
+     angleX -90
+     angleY 180
+     angleZ -177.51
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2A7C"
+   coords 2.909 0.161 -1.665
+   angleY -96.241
+   angleZ 75
+  }
+  GenericEntity {
+   ID "5CC6B4BF288B3FF4"
+   coords -2.913 0.045 0.12
+   angleY -104.623
+  }
+  GenericEntity {
+   ID "5E5AD06E26C12FE8"
+   coords 3.168 -0.105 -3.607
+   angleY -55.621
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2BDB"
+   coords -3.153 0.075 1.638
+   angleY -69.67
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2A48"
+   coords -2.54 0.079 2.525
+   angleY 42.427
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2B00"
+   coords 3.03 -0.106 -1.992
+   angleY 103.572
+  }
+ }
+}
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 5172.657 51.698 5513.975
+  angleY 26.369
+ }
+ {
+  coords 5113.487 54.228 5457.415
+  angleX 0.841
+  angleY -159.995
+  angleZ 0.306
+ }
+}
+GenericEntity : "{D48B49DC4F0BCB66}Prefabs/Compositions/Locations/Eden/SupplyCache_Figari_FIA_01.et" {
+ coords 5250.764 73.061 5337.823
+}
+GenericEntity : "{E249C09D69AAE6C8}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_02.et" {
+ coords 5060.851 54.344 5428.83
+ angleY -85.979
+}

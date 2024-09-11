@@ -1,0 +1,34 @@
+CommentEntity AboutNamesOfPrefabs_1 {
+ coords 3840.82 127.699 5201.473
+ angleX 1.786
+ angleY -0.084
+ angleZ -2.685
+ m_Comment "Best practice - use cardinal directions or Town/Village names in the names of points"
+ m_Color 0 0 0
+ m_FaceCamera 1
+ m_TextBackground 1
+ m_BackgroundColor 1 0.597 0
+ m_BackgroundTransparency 0
+}
+$grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ Relay15 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Tower_EntreDeux"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Tower_EntreDeux-UC"
+   }
+  }
+  coords 5858.849 237.39 7259.799
+  angleY 107.764
+ }
+ Relay4 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Tower_Regina"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Tower_Regina-UC"
+   }
+  }
+  coords 7689.868 342.063 3055.818
+  angleY 165.717
+ }
+}
