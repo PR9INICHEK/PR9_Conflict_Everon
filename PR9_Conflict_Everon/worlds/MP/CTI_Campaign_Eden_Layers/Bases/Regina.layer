@@ -1,0 +1,174 @@
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ CIV_Small_or_Large_48 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 7131.602 151.705 2715.671
+  angleY 171.258
+ }
+ CIV_Small_or_Large_49 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 7176.652 138.483 2438.584
+  angleY 168.506
+ }
+ CIV_Small_or_Large_50 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 7238.45 136.625 2324.797
+  angleY -64.315
+ }
+ CIV_Small_or_Large_51 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 7248.583 136.872 2202.72
+  angleY -83.538
+ }
+}
+GenericEntity MainTent_Regina : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_Regina"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Regina-UC"
+   m_sMapLocationName "C_LocationRegina"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 7293.546 139.462 2175.333
+ angleY 0.084
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords -0.001 -1.059 15
+  }
+ }
+}
+GenericEntity : "{343F8773B9C33154}Prefabs/Compositions/Misc/SubCompositions/Building/House_Town_E_2I03_FIA_01.et" {
+ coords 7165.087 144.292 2350.062
+ angleY 179.293
+}
+GenericEntity : "{74D58E23F798FDF1}Prefabs/Compositions/Misc/SubCompositions/Building/Sawmill_E_01_FIA_01.et" {
+ coords 7286.827 139.056 2502.891
+ angleY 57.307
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 7325.523 138.117 2239.69
+ angleY -7.204
+ {
+  GenericEntity {
+   ID "5CCCBEE868D6B36C"
+   coords -2.605 -0.049 -0.008
+   angleX -0.692
+   angleY -93.314
+   angleZ 0.128
+  }
+ }
+}
+GenericEntity SENTRY_TEAM_FIA_78 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_fAILimitThreshold 0.33
+  }
+ }
+ coords 7475.746 118.946 2055.113
+ {
+  $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+   {
+    coords 51.436 -5.289 9.904
+   }
+   {
+    coords 80.819 -5.28 19.115
+   }
+   {
+    coords 129.117 -4.762 20.551
+   }
+  }
+ }
+}
+GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ coords 7372.612 139.496 2226.202
+ angleY 69.525
+ {
+  GenericEntity {
+   ID "5E5CB3014284530D"
+   coords -0.963 0 0.779
+   angleY 97.378
+  }
+  GenericEntity {
+   ID "5D1ED93DEBE99308"
+   coords -2.52 0.127 0.375
+   angleY -95.729
+  }
+  GenericEntity {
+   ID "5D1ED93DEBE99369"
+   coords -9.388 -0.379 0.245
+   angleY -116.218
+  }
+ }
+}
+GenericEntity : "{CF3D13B37917CEA7}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_03_FIA_01.et" {
+ coords 7223.336 137.549 2372.413
+ angleY -0.305
+}
+GenericEntity FIA_Car_28 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 7241.809 136.754 2204.952
+ angleX -1.799
+ angleY 52.564
+ angleZ -0.877
+}
+GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+ coords 7242.641 140.214 2154.857
+ angleX 6.878
+ angleY 150
+}
+GenericEntity : "{F31EFE6539E2D14F}Prefabs/Compositions/Locations/Eden/SupplyCache_Regina_FIA_01.et" {
+ coords 7205.023 145.19 2324.232
+}

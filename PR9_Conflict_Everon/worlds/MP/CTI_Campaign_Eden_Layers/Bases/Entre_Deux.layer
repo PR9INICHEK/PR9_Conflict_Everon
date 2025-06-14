@@ -1,0 +1,124 @@
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ CIV_Small_or_Large_16 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 5705.269 219.234 7083.847
+  angleY 110.285
+ }
+ CIV_Small_or_Large_17 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 5771.187 212.067 7010.947
+  angleY -126.106
+ }
+ CIV_Small_or_Large_18 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 5876.303 213.994 7050.699
+  angleY 173.691
+ }
+}
+GenericEntity MainTent_Entre_Deux : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_EntreDeux"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_EntreDeux-UC"
+   m_sMapLocationName "LocationEntreDeux"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 6014.631 216.689 7178.424
+ angleY -135.967
+ angleZ -2.553
+}
+GenericEntity : "{1CA1A82176D652AD}Prefabs/Compositions/Locations/Eden/SupplyCache_EntreDeux_FIA_01.et" {
+ coords 5766.788 221.968 7035.573
+}
+GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
+ coords 5818.638 219.563 7125.285
+ angleY 22.692
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 5962.567 217.848 7100.559
+ angleX -5.658
+ angleY 120.598
+ angleZ 2.518
+}
+GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubCompositions/Building/Garage_E_01_FIA_01.et" {
+ coords 5848.346 212.957 7024.426
+ angleY 25.687
+}
+GenericEntity FIRE_TEAM_FIA_16 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 5758.888 216.846 7054.987
+}
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 5993.533 217.374 7154.284
+  angleX 2.151
+  angleY -126.835
+  angleZ -6.059
+ }
+ {
+  coords 5981.554 218.517 7177.866
+  angleX 5.946
+  angleY -107.778
+  angleZ -1.903
+ }
+ {
+  coords 6038.329 213.366 7182.896
+  angleY 135.099
+  angleZ -2.911
+ }
+}
+GenericEntity FIA_Car_11 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 5988.456 218.097 7173.021
+ angleX -1.774
+ angleY -0.166
+ angleZ 5.358
+}

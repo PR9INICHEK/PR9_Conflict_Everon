@@ -1,0 +1,108 @@
+GenericEntity CIV_Small_or_Large_85 : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_iRespawnPeriod 600
+   m_aIncludedEditableEntityLabels {
+    36 37
+   }
+   m_aExcludedEditableEntityLabels {
+    51 52
+   }
+  }
+ }
+ coords 6550.407 153.549 7121.086
+ angleY 111.42
+}
+GenericEntity AT_TEAM_FIA_12 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType TEAM_AT
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 6733.497 147.109 7121.694
+ angleX 3.655
+ angleY -96.514
+ angleZ 0.482
+ {
+  SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+   coords -0.18 0 6.478
+   angleX 0.893
+   angleY -83.498
+   angleZ -3.577
+  }
+ }
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 6726.167 147.593 7120.035
+ angleX 5.429
+ angleY -100.367
+ angleZ -0.086
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2BA0"
+   coords -2.943 0.006 1.167
+   angleY -165.47
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2BF4"
+   coords -2.523 -0.085 3.045
+   angleY 5.604
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2B94"
+   coords -2.4 -0.015 1.173
+   angleY -129.705
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     coords 0.001 0 0
+     angleX -90
+     angleY 179.37
+     angleZ 179.438
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2A7C"
+   coords 3.348 0.319 -1.358
+   angleY -96.241
+   angleZ 75
+  }
+  GenericEntity {
+   ID "5E5AD06E26C12FE8"
+   coords 5.345 0.1 -3.034
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2BDB"
+   coords -3.2 0.004 1.493
+   angleY -69.67
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2A48"
+   coords -2.587 -0.055 2.374
+   angleY 42.427
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2B00"
+   coords 3.46 0.034 -1.636
+   angleY 103.572
+  }
+ }
+}
+GenericEntity FIA_Car_34 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 6737.891 146.734 7127.476
+ angleX -0.892
+ angleY -0.056
+ angleZ 3.577
+}

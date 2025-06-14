@@ -1,0 +1,218 @@
+GenericEntity : "{0C97A65A7FC44EFC}Prefabs/Compositions/Misc/SubCompositions/Building/House_Town_E_2I01_FIA_01.et" {
+ coords 5078.705 22.112 4011.507
+ angleY 85.939
+}
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ CIV_Small_or_Large_67 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 5035.891 15.392 3969.141
+  angleY 75.288
+ }
+ CIV_Small_or_Large_68 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 5100.01 14.25 3992.659
+  angleY -173.287
+ }
+ CIV_Small_or_Large_69 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 5162.402 14.446 4052.728
+  angleY -179.742
+ }
+ CIV_Small_or_Large_70 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 5213.069 17.429 4024.544
+  angleY 153.702
+ }
+}
+GenericEntity : "{0E2B16A0A7DF365D}Prefabs/Compositions/Locations/Eden/SupplyCache_Morton_FIA_01.et" {
+ coords 5135.238 13.126 4011.78
+}
+GenericEntity MainTent_Morton : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_bIsControlPoint 1
+   m_bIsSupplyHub 1
+   m_sBaseName "#AR-Campaign_MapLocation_Coastal_Morton"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Morton-UC"
+   m_sMapLocationName "LocationMorton"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 4982.464 2.187 3846.874
+ angleY 29.698
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords -13.152 0.001 21.832
+  }
+ }
+}
+GenericEntity : "{14C9DB955A3AF38F}Prefabs/Compositions/Misc/SubCompositions/Building/PierShed_01_FIA_01.et" {
+ coords 4987.313 2.187 3822.343
+ angleY -61
+}
+GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
+ coords 4890.51 2.505 3890.655
+ angleX 3.237
+ angleY -57.24
+}
+GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
+ coords 5008.265 19.067 4053.083
+ angleY 0
+}
+GenericEntity : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_US.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_bStopDespawnOnInteraction 1
+   m_aIncludedEditableEntityLabels {
+    51
+   }
+  }
+  SCR_FactionAffiliationComponent "{5D5E85F93E96E088}" {
+   "faction affiliation" "CIV"
+  }
+ }
+ coords 4945.548 2.261 3878.742
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 5045.674 2.225 3834.663
+ angleY 90.685
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 5075.571 5.818 3860.242
+ angleY 80.396
+ {
+  GenericEntity {
+   ID "5CD2AC4D3DDFDC5C"
+   coords -2.563 -0.309 -0.94
+   angleY -92.857
+  }
+ }
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 4904.209 2.167 3880.523
+ angleY -149.431
+}
+$grp GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubCompositions/Building/Garage_E_01_FIA_01.et" {
+ {
+  coords 5135.394 15.012 4071.169
+  angleY 166.793
+ }
+ {
+  coords 5065.978 14.903 4015.218
+  angleY 178.56
+ }
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ SENTRY_TEAM_FIA_3 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 4926.943 2.188 3873.303
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 97.905 0 -39.758
+    }
+    {
+     coords 54.617 0.539 29.38
+    }
+   }
+  }
+ }
+ FIRE_TEAM_FIA_2 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 5142.827 14.499 4002.729
+ }
+ FIRE_TEAM_FIA_34 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4827.589 83.839 4449.083
+ }
+}
+GenericEntity : "{C9517330958DCD27}Prefabs/Compositions/Misc/SubCompositions/Building/Villa_E_2I01_FIA_01.et" {
+ coords 5011.68 23.553 3961.902
+ angleY -166.272
+}
+GenericEntity FIA_Car_49 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 4936.062 2.156 3903.763
+ angleY 16.572
+}
+GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ coords 5022.725 15.375 3946.365
+ angleY 13.511
+ {
+  GenericEntity {
+   ID "5D1ED922875C418B"
+   coords 4.183 0 -1.673
+  }
+  GenericEntity {
+   ID "5D1ED922875C41BB"
+   coords 4.184 0 -0.784
+  }
+ }
+}

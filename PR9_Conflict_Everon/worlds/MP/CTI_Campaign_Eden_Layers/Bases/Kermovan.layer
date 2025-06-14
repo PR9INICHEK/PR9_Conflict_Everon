@@ -1,0 +1,133 @@
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ CIV_Small_or_Large_24 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 6352.604 5.728 9643.333
+  angleY -51.167
+ }
+ CIV_Small_or_Large_25 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 6265.879 3.658 9653.224
+  angleY -44.477
+ }
+}
+GenericEntity MainTent_Kermovan : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_Kermovan"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Kermovan-UC"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 6436.89 10.086 9667.346
+ angleY 140.857
+ angleZ -1.378
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords -0.018 -0.762 15
+  }
+ }
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 6370.353 19.464 9720.362
+ angleY -128.667
+ angleZ -0.001
+}
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 6441.117 11.045 9693.714
+  angleX 3.185
+  angleY -24.723
+  angleZ 0.502
+ }
+ {
+  coords 6430.021 6.728 9626.195
+  angleX 0.902
+  angleY -52.982
+  angleZ -2.681
+ }
+}
+GenericEntity FIA_Car_15 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 6434.069 7.813 9643.378
+ angleX 9.035
+ angleY 15.062
+ angleZ 0.59
+}
+GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+ coords 6364.798 6.31 9643.547
+ angleY -83.208
+ {
+  GenericEntity {
+   ID "5CC6B48E65457D2D"
+   coords 3.258 0.148 -2.241
+   angleY -13.651
+  }
+  GenericEntity {
+   ID "5CC6B48E65457AB2"
+   coords -1.054 -0.243 2.763
+  }
+  GenericEntity {
+   ID "5CC6B4BF3343B4E9"
+   coords -1.505 0.015 -0.421
+   angleY -74.916
+  }
+  GenericEntity {
+   ID "5E5AD06EF546637B"
+   coords 5.387 -0.222 3.155
+   angleY -103.077
+  }
+  GenericEntity {
+   ID "5CC6B48E65457D79"
+   coords -2.26 -0.164 1.652
+   angleY 98.389
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457D46"
+   coords 3.687 0.21 -2.728
+   angleY -20.063
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457AD1"
+   coords 2.875 0.163 -2.907
+   angleY -78.438
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457AFB"
+   coords -1.145 -0.173 1.994
+   angleY -39.526
+  }
+ }
+}

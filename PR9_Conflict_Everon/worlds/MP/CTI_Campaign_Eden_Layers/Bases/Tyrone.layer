@@ -1,0 +1,181 @@
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 4915.191 49.294 8944.543
+ angleY -2.558
+}
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ CIV_Small_or_Large_1 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 4926.187 36.156 9125.69
+  angleY 81.872
+ }
+ CIV_Small_or_Large_2 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 4955.641 37.196 9085.498
+  angleY -153.199
+ }
+}
+GenericEntity MainTent_Tyrone : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_Tyrone"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Tyrone-UC"
+   m_sMapLocationName "C_LocationTyrone"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 5007.142 49.293 8921.314
+ angleY 0.098
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords 0.001 -1.64 15
+  }
+ }
+}
+GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
+ coords 4951.702 43.131 8976.604
+ angleY -74.147
+}
+GenericEntity : "{58CF761823C96210}Prefabs/Compositions/Locations/Eden/SupplyCache_Tyrone_FIA_01.et" {
+ coords 4927.979 36.042 9092.888
+}
+GenericEntity : "{60F851178E5A1E0F}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_02_FIA_01.et" {
+ coords 4983.367 37.312 9099.604
+ angleY -153.656
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 5070.727 48.662 8914.913
+ angleY 67.276
+ angleZ -5.684
+ {
+  GenericEntity {
+   ID "5CCCBED96B5A22B1"
+   coords 2.93 0 -1.214
+   angleX -2.08
+   angleY -71.27
+   angleZ 4.447
+  }
+ }
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 5032.892 41.446 9014.437
+ angleY 11.525
+ angleZ -1.048
+}
+GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubCompositions/Building/Garage_E_01_FIA_01.et" {
+ coords 4881.356 35.69 9103.943
+ angleY 35.566
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ SENTRY_TEAM_FIA_13 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 5172.765 32.238 9250.8
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 3.217 0.751 -124.231
+    }
+    {
+     coords -0.748 0.135 0.404
+    }
+   }
+  }
+ }
+ FIRE_TEAM_FIA_22 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4912.681 35.989 9101.695
+ }
+ FIRE_TEAM_FIA_37 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4923.489 36.132 9174.081
+  angleY 70.931
+ }
+ AT_TEAM_FIA_20 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4927.395 36.36 9178.528
+  angleX 0.361
+  angleY -20.559
+  angleZ 0.047
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0.243 -0.137 5.953
+    angleX -0.322
+    angleY 20.56
+    angleZ -0.171
+   }
+  }
+ }
+ FIRE_TEAM_FIA_38 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 5261.388 26.051 9378.153
+ }
+}
+GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ coords 5022.903 46.118 8950.792
+ angleX -6.1
+ angleY 30.299
+ angleZ 1.597
+}
+GenericEntity FIA_Car_31 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 5033.653 43.993 8971.769
+ angleX 3.457
+ angleY -178.122
+ angleZ 3.685
+}

@@ -1,0 +1,112 @@
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 2817.325 82.102 6478.756
+ angleX -2.879
+ angleY -26.065
+}
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ CIV_Small_or_Large_56 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 2839.563 86.448 6343.815
+  angleY 92.084
+ }
+ CIV_Small_or_Large_57 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 2937.341 78.058 6555.222
+  angleY -63.592
+ }
+}
+GenericEntity MainTent_Vileneuf : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_Villeneuf"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Villeneuf-UC"
+   m_sMapLocationName "LocationVilleneuf"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 2909.824 76.063 6493.664
+ angleY -122.855
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords 0 0.308 14.999
+  }
+ }
+}
+GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ coords 2858.825 81.201 6436.084
+ angleY -115.542
+}
+GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
+ coords 2952.552 78.418 6555.573
+ angleY 56.884
+}
+GenericEntity FIRE_TEAM_FIA_24 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 2831.793 86.518 6329.278
+}
+GenericEntity : "{B923EE8B7D881891}Prefabs/Compositions/Locations/Eden/SupplyCache_Villeneuf_FIA_01.et" {
+ coords 2838.686 86.345 6339.803
+}
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 2983.557 79.38 6518.584
+  angleY 66.994
+ }
+ {
+  coords 2878.605 78.109 6467.65
+  angleX 1.483
+  angleY 152.032
+  angleZ -4.829
+ }
+ {
+  coords 2853.55 78.389 6521.846
+  angleX 1.543
+  angleY -59.561
+  angleZ 0.907
+ }
+}
+GenericEntity FIA_Car_33 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 2916.18 77.651 6458.024
+ angleX 1.893
+ angleY 61.611
+ angleZ 9.071
+}

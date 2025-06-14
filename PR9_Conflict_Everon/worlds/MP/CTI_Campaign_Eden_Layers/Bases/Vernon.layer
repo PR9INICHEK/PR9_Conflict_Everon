@@ -1,0 +1,165 @@
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 9090.266 79.253 2372.775
+ angleY -36.985
+ angleZ -3.193
+ {
+  GenericEntity {
+   ID "5CD2AC4DDB8764D9"
+   coords 1.682 0.014 0.736
+   angleY 93.99
+  }
+  GenericEntity {
+   ID "5CD2AC4DDB8764B7"
+   coords -1.896 0.092 -0.855
+   angleY -146.054
+  }
+ }
+}
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ CIV_Small_or_Large_54 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 9188.388 65.085 2135.471
+  angleY 7.73
+ }
+ CIV_Small_or_Large_55 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 9194.998 63.818 2085.34
+  angleY 100.218
+ }
+}
+GenericEntity MainTent_Vernon : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_Vernon"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Vernon-UC"
+   m_sMapLocationName "LocationVernon"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 9128.483 77.32 2292.273
+ angleY 173.643
+ angleZ -1.421
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords -0.053 -2.135 15
+  }
+ }
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 9053.273 78.893 2280.208
+ angleY 139.41
+ angleZ -1.827
+ {
+  GenericEntity {
+   ID "5CCCBEE868D6B36C"
+   coords -2.604 -0.048 -0.011
+   angleX -0.982
+   angleY -93.141
+   angleZ 3.229
+  }
+ }
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ FIRE_TEAM_FIA_23 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 9247.894 58.821 2067.012
+ }
+ SENTRY_TEAM_FIA_33 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 9329.498 84.486 2225.195
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -69.105 -0.087 57.577
+    }
+    {
+     coords -119.449 6.826 112.156
+    }
+    {
+     coords -152.427 -0.067 116.294
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_34 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 9107.287 73.552 2073.585
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -47.14 3.797 34.278
+    }
+    {
+     coords -87.049 7.495 57.486
+    }
+    {
+     coords -134.539 11.624 103.169
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
+ coords 9169.689 74.493 2256.207
+ angleY 153.944
+ angleZ -5.635
+}
+GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ coords 9123.673 74.62 2256.648
+ angleX -1.807
+ angleY 178.872
+ angleZ -0.859
+}
+GenericEntity FIA_Car_32 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 9115.877 76.614 2281.866
+ angleX 7.116
+ angleY 0.197
+ angleZ 2.687
+}

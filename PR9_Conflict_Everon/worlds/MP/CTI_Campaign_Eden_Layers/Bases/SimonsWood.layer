@@ -1,0 +1,83 @@
+GenericEntity CIV_Small_or_Large_52 : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_iRespawnPeriod 600
+   m_aIncludedEditableEntityLabels {
+    36 37
+   }
+   m_aExcludedEditableEntityLabels {
+    51 52
+   }
+  }
+ }
+ coords 6528.235 86.793 5291.002
+ angleY 107.256
+}
+GenericEntity MainTent_SimonsWood : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_SimonsWood"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_SimonsWood-UC"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 6579.463 81.999 5135.611
+ angleY -70.199
+ angleZ -3.464
+}
+GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ coords 6618.426 82.731 5167.05
+ angleX 3.167
+ angleY -1.967
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 6624.522 77.598 5077.192
+ angleY 118.48
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 6594.271 83.941 5164.249
+ angleY -142.204
+ {
+  GenericEntity {
+   ID "5CCCBEE868D6B36C"
+   coords -2.564 -0.229 -0.049
+   angleX -3.371
+   angleY -92.852
+   angleZ 5.278
+  }
+ }
+}
+GenericEntity FIRE_TEAM_FIA_15 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 6526.527 87.024 5278.794
+}
+GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ coords 6546.949 81.585 5118.614
+ angleX 1.953
+ angleY -124.233
+ angleZ -3.489
+}
+GenericEntity FIA_Car_29 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 6566.715 84.372 5170.404
+ angleX 3.013
+ angleY -54.599
+ angleZ -1.15
+}

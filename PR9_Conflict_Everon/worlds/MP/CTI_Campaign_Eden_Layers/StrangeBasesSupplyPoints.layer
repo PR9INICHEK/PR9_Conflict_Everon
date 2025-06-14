@@ -1,0 +1,21 @@
+GenericEntity : "{4FDFB70701D6A97A}Prefabs/Compositions/Locations/Eden/Base_MontfortCastle_FIA_01.et" {
+ coords 9315.082 196.166 1144.534
+ {
+  GenericEntity {
+   ID "5E6ACA2E9D11FB3C"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E6ACA2E9D11FB3F"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+ }
+}

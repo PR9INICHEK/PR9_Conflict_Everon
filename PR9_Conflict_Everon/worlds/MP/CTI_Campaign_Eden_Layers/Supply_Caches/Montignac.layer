@@ -1,0 +1,58 @@
+GenericEntity : "{FB04C4D5947808F1}Prefabs/Compositions/Locations/Eden/Base_MontignacWarehouses_FIA_01.et" {
+ coords 4537.876 155.721 6844.214
+ {
+  GenericEntity {
+   ID "5E6ACA2C51398426"
+   {
+    GenericEntity {
+     ID "5E3A731E2F167706"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593012"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593014"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593015"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2C5139871E"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E6ACA2C5139871B"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6B01A974EBE924"
+   Flags 1048579
+  }
+  GenericEntity {
+   ID "5E6B01A974EBE937"
+   Flags 1048579
+  }
+  GenericEntity {
+   ID "5E6B01A974EBE94C"
+   Flags 1048579
+  }
+  SCR_SpawnPoint {
+   ID "5E6B01A974EBE91B"
+   Flags 1048579
+  }
+ }
+}

@@ -1,0 +1,122 @@
+GenericEntity CIV_Small_or_Large_42 : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_iRespawnPeriod 600
+   m_aIncludedEditableEntityLabels {
+    36 37
+   }
+   m_aExcludedEditableEntityLabels {
+    51 52
+   }
+  }
+ }
+ coords 8197.688 221.081 2238.273
+ angleY 16.854
+}
+GenericEntity MainTent_PennantsPass : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-Campaign_MapLocation_PennantsPass"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_PennantsPass-UC"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 8237.663 223.129 2164.276
+ angleY -58.216
+}
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 8242.316 223.125 2158.36
+ angleY 154.691
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ components {
+  RoadNetworkBridgeComponent "{61609812EEC8E880}" {
+   Points {
+    0 0 9 7 0 3 4 0 -7
+   }
+  }
+ }
+ coords 8193.315 220.896 2213.693
+ angleY 33.149
+}
+GenericEntity SENTRY_TEAM_FIA_76 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_fAILimitThreshold 0.33
+  }
+ }
+ coords 8338.664 217.875 2115.249
+ {
+  $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+   {
+    coords 19.13 -1.504 -30.233
+   }
+   {
+    coords 110.291 10.917 -170.985
+   }
+   {
+    coords 228.119 61.604 -376.868
+   }
+   {
+    coords 243.99 58.328 -499.788
+   }
+   {
+    coords 443.477 56.635 -610.439
+   }
+   {
+    coords 421.126 71.463 -565.489
+   }
+   {
+    coords 431.087 92.138 -462.243
+   }
+   {
+    coords 357.141 93.965 -336.16
+   }
+   {
+    coords 252.928 73.335 -212.284
+   }
+   {
+    coords 239.038 69.47 45.113
+   }
+   {
+    coords 158.212 93.306 173.567
+   }
+   {
+    coords 50.283 49.234 154.025
+   }
+   {
+    coords 36.062 21.638 75.679
+   }
+  }
+ }
+}
+GenericEntity FIA_Car_24 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 8206.497 223.125 2188.942
+ angleX 2.9
+ angleY 54.145
+ angleZ -2.094
+}
+GenericEntity : "{E249C09D69AAE6C8}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_02.et" {
+ components {
+  RoadNetworkBridgeComponent "{61609813A43CCAE8}" {
+   Points {
+    0 0 9 9 0 3 7 0 -5
+   }
+  }
+ }
+ coords 8178.215 221.407 2175.938
+ angleY -98.944
+}

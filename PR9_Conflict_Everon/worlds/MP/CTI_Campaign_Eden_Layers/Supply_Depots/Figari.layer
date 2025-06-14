@@ -1,0 +1,159 @@
+GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ coords 4814.289 53.445 5819.508
+ angleX -2.998
+ angleY 102.085
+ angleZ 1.187
+ {
+  $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+   {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_fAILimitThreshold 0.66
+     }
+    }
+    coords 15.159 1.911 21.139
+    angleX 1.136
+    angleY -47.81
+    angleZ -3.018
+   }
+   {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_bPickRandomGroupType 1
+      m_iRespawnPeriod 600
+      m_fAILimitThreshold 0.66
+     }
+    }
+    coords 211.941 6.148 -106.438
+    angleX -5.266
+    angleY 47.417
+    angleZ 0.709
+    {
+     SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+      components {
+       Hierarchy "{5CD0765889102122}" {
+       }
+      }
+      coords -234.25 -15.034 -74.851
+      angleY -54.336
+     }
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{38464762C5D374D2}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign.et" {
+ {
+  coords 4760.788 54.106 5842.753
+  angleX -2.149
+  angleY -146.342
+ }
+ {
+  coords 4840.767 51.726 5888.263
+  angleX -1.968
+  angleY 150
+ }
+}
+GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
+ coords 4876.027 52.513 5715.602
+ angleY -16.679
+}
+$grp GenericEntity : "{78E7F5C4FFC687D5}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_02_Campaign.et" {
+ {
+  coords 4741.732 54.596 5834.935
+  angleY 39.77
+  angleZ -4.309
+ }
+ {
+  coords 4760.327 54.131 5813.492
+  angleX -1.413
+  angleY 55.932
+  angleZ -2.654
+ }
+ {
+  coords 4789.626 53.759 5856.382
+  angleY -165
+  angleZ -2.119
+ }
+}
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ coords 4900.436 53.001 5895.594
+ angleY -114.641
+}
+GenericEntity : "{869A4C4CA7F43C21}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_06_Campaign.et" {
+ coords 4871.928 52.5 5675.194
+ angleY -105
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 4812.064 54.56 5720.312
+ angleY 145.215
+ angleZ -2.866
+}
+GenericEntity SENTRY_TEAM_FIA_21 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_fAILimitThreshold 0.33
+  }
+ }
+ coords 4893.536 52.799 5894.75
+ {
+  $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+   {
+    coords -11.438 -0.211 -246.334
+   }
+   {
+    coords -0.043 -0.001 -0.046
+   }
+  }
+ }
+}
+$grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ {
+  coords 4821.057 53.831 5720.288
+  angleX -3.272
+  angleY 165
+ }
+ {
+  coords 4901.524 53.005 5902.19
+  angleY 66.343
+ }
+}
+GenericEntity : "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et" {
+ coords 4833.334 54.063 5755.912
+ angleY 160.389
+ angleZ -1.714
+}
+GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
+ coords 4771.736 53.932 5843.775
+ angleY 136.566
+ angleZ 0.762
+}
+GenericEntity FIA_Car_55 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 4761.982 54.076 5817.023
+ angleX 1.687
+ angleY -161.386
+ angleZ 3.397
+}
+GenericEntity : "{F9A490888BED61DB}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign.et" {
+ coords 4852.334 52.946 5719.825
+ angleY 164.811
+ angleZ -1.405
+ {
+  GenericEntity {
+   ID "5D1ED92353BB9F49"
+   coords -4.464 -0.026 0.547
+   angleX -1.495
+  }
+ }
+}

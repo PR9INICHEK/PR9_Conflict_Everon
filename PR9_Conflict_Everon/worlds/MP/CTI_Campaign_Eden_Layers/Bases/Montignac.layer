@@ -1,0 +1,198 @@
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 5078.837 177.69 7034.13
+ angleY -47.903
+}
+GenericEntity : "{0C97A65A7FC44EFC}Prefabs/Compositions/Misc/SubCompositions/Building/House_Town_E_2I01_FIA_01.et" {
+ coords 4785.469 175.171 6947.485
+ angleY -17.995
+}
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ CIV_Small_or_Large_37 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 4785.245 162.528 7127.867
+  angleY -121.276
+ }
+ CIV_Small_or_Large_38 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 4818.941 169.052 6950.195
+  angleY 145.397
+ }
+ CIV_Small_or_Large_39 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 4872.215 170.896 7022.507
+  angleY 42.317
+ }
+}
+GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et" {
+ coords 5118.542 170.92 6903.708
+ angleY -138.484
+ {
+  GenericEntity {
+   ID "5CD2AC4D3DDFDC5C"
+   coords -2.563 -0.054 -0.94
+   angleY -92.857
+  }
+ }
+}
+GenericEntity MainTent_Montignac : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_Montignac"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Montignac-UC"
+   m_sMapLocationName "LocationMontignac"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 5124.376 175.5 6980.63
+ angleX -1.591
+ angleY -91.148
+ angleZ -0.256
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords -0.002 1.307 15.014
+  }
+ }
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 5185.511 171.443 6970.962
+ angleY 133.807
+ {
+  GenericEntity {
+   ID "5CC6B4BF5DDEF861"
+   coords -2.798 0.072 -2.25
+   angleY -76.767
+  }
+  GenericEntity {
+   ID "5E5AD06D797113DE"
+   coords 2.193 0.067 -2.338
+   angleY -99.208
+  }
+ }
+}
+$grp GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
+ {
+  coords 4935.817 172.087 6978.302
+  angleY -45.78
+ }
+ {
+  coords 4643.65 160.739 6938.673
+  angleY 57
+ }
+}
+GenericEntity : "{458D1E40FD79C36D}Prefabs/Compositions/Locations/Eden/SupplyCache_Montignac_FIA_01.et" {
+ coords 4773.455 164.342 7094.566
+}
+GenericEntity : "{52F4E50D3A7C45C3}Prefabs/Compositions/Misc/SubCompositions/Building/Villa_E_2I01_police_FIA_01.et" {
+ coords 4815.31 175.218 7062.226
+ angleY 61.818
+}
+GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubCompositions/Building/Garage_E_01_FIA_01.et" {
+ coords 4858.032 163.852 7116.543
+ angleY -120.389
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ FIRE_TEAM_FIA_43 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4638.017 160.411 6915.8
+ }
+ FIRE_TEAM_FIA_44 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4733.842 162.499 6998.693
+ }
+ FIRE_TEAM_FIA_45 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4751.167 160.967 7153.148
+ }
+ FIRE_TEAM_FIA_46 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4787.12 167.714 6918.276
+ }
+ FIRE_TEAM_FIA_47 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4849.31 167.196 6917.554
+ }
+ FIRE_TEAM_FIA_48 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4879.684 170.98 7036.141
+ }
+}
+GenericEntity FIA_Car_21 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 5093.168 176.892 6988.288
+ angleX 0.895
+ angleY 0.014
+ angleZ 0.895
+}

@@ -1,0 +1,293 @@
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 4997.871 26.694 9859.163
+ angleY -169.199
+}
+GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ coords 4995.1 25.473 9943.72
+ angleX -0.895
+ {
+  $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+   {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_fAILimitThreshold 0.66
+     }
+    }
+    coords 2.86 0.161 -15.868
+    angleX 0.522
+    angleY 54.339
+    angleZ 0.727
+   }
+   {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_bPickRandomGroupType 1
+      m_iRespawnPeriod 600
+      m_fAILimitThreshold 0.66
+     }
+    }
+    coords 139.267 -5.251 -344.776
+    angleX -8.939
+    angleY 149.632
+    angleZ -0.253
+    {
+     SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+      components {
+       Hierarchy "{5CD0765889102122}" {
+       }
+      }
+      coords -57.957 -53.904 -378.419
+      angleY -54.336
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 4974.254 24.918 9975.905
+ angleY -106.182
+}
+GenericEntity : "{38464762C5D374D2}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign.et" {
+ coords 5033.289 26.917 9950.467
+ angleY -88.562
+}
+GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
+ coords 4922.656 24.75 9985.346
+ angleY -141.883
+}
+GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
+ coords 5031.582 27.031 9869.461
+ angleY -91.816
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 5154.687 170.865 6930.681
+ angleY 134.014
+}
+$grp GenericEntity : "{78E7F5C4FFC687D5}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_02_Campaign.et" {
+ {
+  coords 5014.078 26.839 9944.229
+  angleY 79.189
+  {
+   GenericEntity {
+    ID "5D1ED92FEF2D2F21"
+    coords -1.894 -0.073 0.717
+    angleX -2.53
+    angleY -27.791
+   }
+   StaticModelEntity {
+    ID "5D1ED92FEF2D2F0B"
+    coords 6.065 0 -0.732
+   }
+  }
+ }
+ {
+  coords 4996.238 26.386 9917.058
+  angleY -51.077
+  {
+   GenericEntity {
+    ID "5D1ED92FEF2D2F21"
+    coords -1.885 -0.253 0.697
+    angleX -7.039
+    angleY -27.755
+    angleZ -1.674
+   }
+  }
+ }
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 5001.417 26.129 10025.211
+ angleX 0.356
+}
+$grp GenericEntity : "{869A4C4CA7F43C21}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_06_Campaign.et" {
+ {
+  coords 5011.831 26.677 9908.48
+  angleY -90.759
+  {
+   GenericEntity {
+    ID "5D45393949376AB5"
+    {
+     GenericEntity {
+      ID "5D4539397A9246E8"
+      coords 1.365 0.18 0.165
+     }
+     GenericEntity {
+      ID "5D4539397A9246EE"
+      coords -1.26 0.18 0.099
+     }
+    }
+   }
+   GenericEntity {
+    ID "5D1ED92199D182E9"
+    coords 3.054 0.221 -4.186
+    angleY -10.521
+   }
+   GenericEntity {
+    ID "5D1ED92199D182F7"
+    coords 3.071 0.26 -4.994
+    angleY -57.298
+   }
+   StaticModelEntity {
+    ID "5D1ED92199D18266"
+    coords 3.236 0.314 -6.075
+   }
+  }
+ }
+ {
+  coords 5020.932 26.06 10002.021
+  angleX 1.796
+  angleY 90
+  angleZ -1.55
+  {
+   GenericEntity {
+    ID "5D1ED92199D182E9"
+    coords 3.053 -0.061 -4.188
+    angleY -10.521
+   }
+   GenericEntity {
+    ID "5D1ED92199D182F7"
+    coords 3.072 -0.05 -4.996
+    angleY -57.298
+   }
+   StaticModelEntity {
+    ID "5D1ED92199D18266"
+    coords 3.236 -0.06 -6.077
+   }
+  }
+ }
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ SENTRY_TEAM_FIA_26 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 5299.637 21.313 9818.148
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 69.098 -3.911 216.016
+    }
+    {
+     coords 0.138 0.131 0.177
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_28 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 5021.211 26.283 9991.598
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -11.629 0.66 -116.534
+    }
+    {
+     coords 5.521 0.189 0.307
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 5045.955 28.166 9972.953
+ angleY 84.85
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2BA0"
+   coords -3.31 -0.101 0.376
+   angleY -165.47
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2BF4"
+   coords -2.889 0.049 2.264
+   angleY 5.604
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2A7C"
+   coords 3.197 0.202 0.913
+   angleY -96.241
+   angleZ 75
+  }
+  GenericEntity {
+   ID "5E5AD06E26C12FE8"
+   coords 3.461 -0.28 -1.088
+   angleY -55.621
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2BDB"
+   coords -3.565 -0.078 0.701
+   angleY -69.67
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2A48"
+   coords -2.955 -0.004 1.59
+   angleY 42.427
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2B00"
+   coords 3.317 -0.128 0.533
+   angleY 103.572
+  }
+ }
+}
+GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
+ coords 4974.982 25.874 9873.354
+ angleY 179.912
+}
+GenericEntity FIA_Car_54 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 4963.855 25.228 9980.959
+ angleX 3.265
+ angleY -65.889
+ angleZ 1.46
+}
+GenericEntity : "{F9A490888BED61DB}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign.et" {
+ coords 5018.894 26.27 9988.49
+ angleY 89.772
+ {
+  GenericEntity {
+   ID "5D1ED92353BB9FB1"
+   coords -4.774 -0.177 -2.394
+   angleY 93.613
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9FA0"
+   coords -4.34 -0.164 -2.425
+   angleY -89.335
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9F49"
+   coords -4.463 -0.093 0.549
+  }
+  GenericEntity {
+   ID "5D453938FA2CE085"
+   {
+    GenericEntity {
+     ID "5D453938F45912F0"
+     coords -0.331 -0.057 0.73
+    }
+    GenericEntity {
+     ID "5D453938F45912F6"
+     coords -0.136 -0.113 -3.727
+     angleY -92.416
+    }
+   }
+  }
+ }
+}

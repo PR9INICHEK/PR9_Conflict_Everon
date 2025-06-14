@@ -1,0 +1,20 @@
+GenericEntity : "{14C9DB955A3AF38F}Prefabs/Compositions/Misc/SubCompositions/Building/PierShed_01_FIA_01.et" {
+ coords 4325.873 1.125 9499.855
+ angleY 79.111
+}
+GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ coords 4297.855 1.13 9532.504
+ angleY 45.123
+}
+GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ coords 4317.285 1.125 9563.502
+ angleY -134.243
+}
+GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
+ coords 4313.67 1.125 9491.603
+ angleY -14.768
+}
+GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ coords 4331.587 1.125 9512.366
+ angleY -108.471
+}

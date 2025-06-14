@@ -1,0 +1,137 @@
+GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
+ coords 4958.035 29.426 10620.853
+ angleY 141.836
+ angleZ -2.13
+ {
+  GenericEntity {
+   ID "5CC6B4BF606E2876"
+   coords -1.837 -0.067 -1.133
+   angleY 88.49
+  }
+  GenericEntity {
+   ID "5CC6B4BF606E2850"
+   coords 1.253 -0.073 -1.752
+   angleY -102.765
+  }
+ }
+}
+GenericEntity : "{24B7F96197053B39}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_US_01.et" {
+ coords 4973.613 29.354 10627.645
+ angleX 2.489
+ angleY 132.026
+ angleZ 3.278
+ {
+  GenericEntity {
+   ID "5CC6B4B0E08C8E09"
+   coords -1.492 -0.001 -1.905
+   angleY 61.821
+  }
+  GenericEntity {
+   ID "5CC6B4B0E08C8E56"
+   coords 1.697 -0.055 -1.823
+   angleY -92.358
+  }
+ }
+}
+GenericEntity AT_TEAM_FIA_21 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType TEAM_AT
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 4962.785 28.873 10631.666
+ angleX 1.124
+ angleY 162.366
+ angleZ 0.582
+ {
+  SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+   coords 0.002 0.084 5.806
+   angleX 0.895
+   angleY -162.353
+   angleZ 0.895
+  }
+ }
+}
+GenericEntity FIA_Truck_9 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    54
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 4962.237 28.815 10640.226
+ angleX 1.784
+ angleY -175.366
+ angleZ 0.145
+}
+GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+ coords 4967.312 29.171 10624.505
+ angleX 2.722
+ angleY 145.76
+ angleZ -0.77
+ {
+  GenericEntity {
+   ID "5CC6B48E65457D2D"
+   coords 2.735 0 -1.686
+  }
+  GenericEntity {
+   ID "5CC6B48E65457AB2"
+   coords -1.492 0 3.267
+  }
+  GenericEntity {
+   ID "5CC6B48E65457D0D"
+   coords 3.179 0 -1.611
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     coords 0 0 -0.001
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4BF3343B4E9"
+   coords -2.57 0.023 -0.429
+   angleY -74.916
+  }
+  GenericEntity {
+   ID "5E5AD06EF546637B"
+   coords 2.626 0.012 -4.024
+   angleY -103.077
+  }
+  GenericEntity {
+   ID "5CC6B48E65457D79"
+   coords -2.697 0 2.157
+   {
+    GenericEntity {
+     ID "52F07DE9F3BBC081"
+     coords -0.042 0.743 -0.011
+    }
+    GenericEntity {
+     ID "52F07DE9F3BBC170"
+     coords 0.001 0.368 0.006
+    }
+    GenericEntity {
+     ID "5CB0D9960149C45D"
+     coords 0.62 0.395 -0.006
+    }
+   }
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457D46"
+   coords 3.162 0 -2.173
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457AD1"
+   coords 2.356 0 -2.353
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457AFB"
+   coords -1.583 0 2.5
+  }
+ }
+}
