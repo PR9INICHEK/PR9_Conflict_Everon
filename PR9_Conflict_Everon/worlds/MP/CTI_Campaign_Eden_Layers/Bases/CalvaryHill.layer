@@ -1,0 +1,74 @@
+GenericEntity MainTent_CalvaryHill : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-Campaign_MapLocation_CalvaryHill"
+   m_sBaseNameUpper "#AR-MapLocation_CalvaryHill"
+   m_sMapLocationName "LocationMilitaryBase_AA"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 3512.013 181.915 5816.282
+ angleX -4.292
+ angleY -123.664
+ angleZ -1.89
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords 13.096 -0.092 13.384
+  }
+ }
+}
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 3454.658 172.061 5735.45
+ angleY -138.327
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 3543.632 180.206 5811.623
+ angleY 47.848
+ angleZ 2.146
+}
+GenericEntity FIRE_TEAM_FIA_8 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 3349.928 159.932 5765.312
+}
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 3491.229 178.057 5774.495
+  angleX -10.908
+  angleY -170.296
+  angleZ 0.821
+ }
+ {
+  coords 3479.802 179.377 5845.189
+  angleX -9.408
+  angleY -45.055
+  angleZ 1.882
+ }
+ {
+  coords 3452.369 177.177 5812.386
+  angleX -7.832
+  angleY -102.017
+  angleZ 1.661
+ }
+}
+GenericEntity FIA_Car_5 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 3472.78 179.875 5805.254
+}

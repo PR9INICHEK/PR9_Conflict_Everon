@@ -1,0 +1,330 @@
+GenericEntity : "{047B9C8AAB50CE0F}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MachineGunNest_S_USSR_01.et" {
+ coords 1061.874 2.75 6010.628
+ angleY 179.818
+}
+GenericEntity : "{0C97A65A7FC44EFC}Prefabs/Compositions/Misc/SubCompositions/Building/House_Town_E_2I01_FIA_01.et" {
+ coords 1297.92 46.053 6065.443
+ angleY -140.587
+}
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ CIV_Small_or_Large_62 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 1648.461 71.467 5742.586
+  angleY -57.054
+ }
+ CIV_Small_or_Large_63 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 1385.694 45.096 5869.846
+  angleY -120.58
+ }
+ CIV_Small_or_Large_64 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 1282.626 37.861 5925.176
+  angleY 125.795
+ }
+ CIV_Small_or_Large_65 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 1296.087 38.019 6031.241
+  angleY -172.126
+ }
+ CIV_Small_or_Large_66 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 1231.422 35.913 5997.295
+  angleY 71.329
+ }
+}
+GenericEntity MainTent_Lamentin : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_bIsControlPoint 1
+   m_bIsSupplyHub 1
+   m_sBaseName "#AR-Campaign_MapLocation_Coastal_Lamentin"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Coastal_Lamentin-UC"
+   m_sMapLocationName "LocationLamentin_Harbour"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 1089.461 2.781 6029.319
+ angleY -93.618
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords 8.844 -0.062 18.807
+  }
+ }
+}
+GenericEntity : "{14C9DB955A3AF38F}Prefabs/Compositions/Misc/SubCompositions/Building/PierShed_01_FIA_01.et" {
+ coords 907.962 2.75 6069.669
+ angleY 38.144
+}
+GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ components {
+  SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+   m_bOrientChildrenToTerrain 0
+  }
+ }
+ coords 1058.127 2.877 6054.715
+ angleX -0.008
+ angleY 35.835
+ angleZ -0.675
+ {
+  GenericEntity {
+   ID "5D1ED92353BB9FF4"
+   coords 3.51 -0.106 -2.945
+   angleY 0.819
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9F82"
+   coords 3.196 -0.131 1.629
+   angleY -90
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9F95"
+   coords 3.296 -0.103 0.133
+   angleY -88.159
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9FE3"
+   coords 3.357 -0.104 -1.785
+   angleY 176.173
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9E3E"
+   coords 5.03 -0.129 0.146
+   angleY 4.513
+  }
+ }
+}
+GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ coords 880.68 3.038 6078.892
+ angleY 33.929
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 1074.117 2.813 6199.68
+ angleY -173.077
+}
+GenericEntity : "{567515087F8ED05F}Prefabs/Compositions/Locations/Eden/Base_LamentinHarbour_FIA_01.et" {
+ coords 1024.018 2.849 6043.247
+ {
+  GenericEntity {
+   ID "5E6ACA2FCDBBBD92"
+   {
+    GenericEntity {
+     ID "5E3A731E2F167706"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593012"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593014"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E3A731E87593015"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2FCDBBBC5C"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E6ACA2FCDBBBC5F"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{8650C85210C0B43A}Prefabs/Compositions/Misc/SubCompositions/Building/Warehouse_01_FIA_01.et" {
+ coords 1099.316 2.882 6128.049
+ angleY 152.83
+}
+GenericEntity : "{90634F6BA6DF3F5D}Prefabs/Compositions/Misc/SubCompositions/Building/Garage_E_01_FIA_01.et" {
+ coords 1223.124 31.263 6073.083
+ angleY 87.531
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ SENTRY_TEAM_FIA_2 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 1071.705 2.72 6028.615
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 22.771 0.094 69.908
+    }
+    {
+     coords -81.023 0.125 2.023
+    }
+   }
+  }
+ }
+ FIRE_TEAM_FIA_1 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 1292.724 37.716 6038.14
+ }
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 1036.78 2.861 6013.265
+ angleY -179.217
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2BA0"
+   coords -5.397 0.079 2.877
+   angleY -165.47
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2BF4"
+   coords -4.977 0.136 4.765
+   angleY 5.604
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2B94"
+   coords -4.854 0.077 2.887
+   angleY -129.705
+  }
+  GenericEntity {
+   ID "5CC6B4BF288B3FF4"
+   coords -4.615 0.04 1.713
+   angleY -104.623
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2BDB"
+   coords -5.653 0.093 3.204
+   angleY -69.67
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2A48"
+   coords -5.041 0.114 4.092
+   angleY 42.427
+  }
+ }
+}
+GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
+ coords 925.242 2.75 6058.799
+ angleY 36.956
+}
+GenericEntity : "{C237E5D320045C6A}Prefabs/Compositions/Misc/SubCompositions/Building/LighthouseSmall_01_FIA_01.et" {
+ coords 1124.654 34.659 6393.423
+ angleY 121
+}
+GenericEntity : "{C9517330958DCD27}Prefabs/Compositions/Misc/SubCompositions/Building/Villa_E_2I01_FIA_01.et" {
+ coords 1349.528 50.611 6045.486
+ angleY 131
+}
+GenericEntity FIA_Car_46 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 1065.735 2.781 6050.259
+ angleX 0.11
+ angleY 36.397
+ angleZ -0.136
+}
+GenericEntity : "{E4D8BE67FA5175A3}Prefabs/Compositions/Locations/Eden/SupplyCache_Lamentin_FIA_01.et" {
+ coords 1279.669 37.386 5940.503
+ {
+  GenericEntity {
+   ID "5E6ACA23963C1EBF"
+   Flags 1049603
+  }
+ }
+}
+$grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    m_bOrientChildrenToTerrain 0
+   }
+  }
+  coords 1075.962 2.905 6084.289
+  angleY -56.136
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    m_bOrientChildrenToTerrain 0
+   }
+  }
+  coords 1047.79 2.857 6047.054
+  angleY -6.102
+ }
+}

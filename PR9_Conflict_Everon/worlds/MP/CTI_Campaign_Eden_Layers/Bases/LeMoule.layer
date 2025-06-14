@@ -1,0 +1,165 @@
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ CIV_Small_or_Large_30 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 2662.723 92.698 5367.949
+  angleY 176.693
+ }
+ CIV_Small_or_Large_31 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 2566.818 105.36 5523.361
+  angleY -113.977
+ }
+}
+GenericEntity MainTent_Le_Moule : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_LeMoule"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_LeMoule-UC"
+   m_sMapLocationName "LocationLeMoule"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 2439.405 104.159 5438.09
+ angleY 78.452
+ angleZ 3.946
+ {
+  GenericEntity {
+   ID "5CCED514A5908822"
+   coords 0.066 -0.963 15
+  }
+ }
+}
+GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
+ coords 2597.516 88.643 5319.014
+ angleY 60.275
+}
+GenericEntity : "{60F851178E5A1E0F}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_02_FIA_01.et" {
+ coords 2608.477 105.187 5549.981
+ angleY -96.763
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 2487.408 94.955 5390.334
+ angleX -7.272
+ angleY 132.657
+ angleZ 2.105
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 2418.171 101.188 5376.154
+ angleX 0.001
+ angleY 173.53
+ angleZ -3.74
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ FIRE_TEAM_FIA_20 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 2676.637 94.645 5383.615
+ }
+ SENTRY_TEAM_FIA_38 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 2392.061 113.944 5487.462
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -42.083 -5.731 -90.88
+    }
+    {
+     coords -54.898 -11.987 -146.16
+    }
+    {
+     coords 9.815 -9.475 -95.264
+    }
+    {
+     coords 60.615 -3.329 16.558
+    }
+    {
+     coords 9.541 1.834 43.41
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_39 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 2547.969 87.993 5172.618
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 42.772 6.176 -11.77
+    }
+    {
+     coords 129.284 12.45 -11.1
+    }
+    {
+     coords 215.087 16.371 17.986
+    }
+    {
+     coords 254.541 19.782 53.368
+    }
+    {
+     coords 82.099 6.514 59.844
+    }
+    {
+     coords -31.058 -5.358 13.71
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{C634CB20BED9C7D5}Prefabs/Compositions/Locations/Eden/SupplyCache_LeMoule_FIA_01.et" {
+ coords 2615.962 92.06 5378.784
+}
+GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ coords 2429.25 113.841 5528.771
+ angleY 86.294
+}
+GenericEntity FIA_Car_17 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 2465.685 102.735 5443.956
+ angleX 2.744
+ angleY -99.74
+ angleZ -10.337
+}

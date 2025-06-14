@@ -1,0 +1,96 @@
+GenericEntity CIV_Small_or_Large_53 : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_iRespawnPeriod 600
+   m_aIncludedEditableEntityLabels {
+    36 37
+   }
+   m_aExcludedEditableEntityLabels {
+    51 52
+   }
+  }
+ }
+ coords 3845.905 68.812 6910.776
+ angleY -118.118
+}
+GenericEntity MainTent_TillersFind : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-Campaign_MapLocation_TillersFind"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_TillersFind-UC"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 3789.583 59.781 6997.688
+ angleY -49.512
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 3873.115 61.409 7032.324
+ angleY 5.136
+}
+GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
+ coords 3826.443 58.945 7065.731
+ angleX -2.807
+ angleY -19.137
+ angleZ 0.791
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 3851.36 68.937 6930.453
+ angleY 151.539
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 3730.808 58.926 7016.413
+ angleY -101.564
+ angleZ 3.419
+}
+GenericEntity SENTRY_TEAM_FIA_63 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_fAILimitThreshold 0.33
+  }
+ }
+ coords 3881.045 46.783 7123.244
+ {
+  $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+   {
+    coords -4.192 14.325 -85.039
+   }
+   {
+    coords 13.716 21.544 -161.482
+   }
+  }
+ }
+}
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 3754.238 58.643 7022.48
+  angleX -5.5
+  angleY -48.107
+  angleZ 3.449
+ }
+ {
+  coords 3801.033 62.871 6975.661
+  angleX 0.041
+  angleY 152.265
+  angleZ 2.001
+ }
+}
+GenericEntity FIA_Car_30 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 3752.451 58.794 7020.698
+ angleX -7.123
+ angleY 0.112
+ angleZ -0.902
+}

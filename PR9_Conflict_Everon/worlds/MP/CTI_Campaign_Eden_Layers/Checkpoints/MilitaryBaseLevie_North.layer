@@ -1,0 +1,85 @@
+GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ coords 7601.853 163.538 4536.515
+ angleY 90.276
+ {
+  StaticModelEntity {
+   ID "5CC6B48215782E1C"
+   coords -6.16 -0.329 1.276
+   angleY 146.264
+  }
+ }
+}
+GenericEntity AT_TEAM_FIA_18 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType TEAM_AT
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 7596.166 163.378 4525.546
+ angleX 1.264
+ angleY 48.298
+ angleZ 0.073
+ {
+  SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+   coords 0.734 0.084 6.543
+   angleX -0.895
+   angleY -48.304
+   angleZ 0.895
+  }
+ }
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 7602.307 163.644 4525.29
+ angleX 1.253
+ angleY 44.432
+ angleZ -1.278
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2A7C"
+   coords 2.589 0.26 -1.83
+  }
+  GenericEntity {
+   ID "5E5AD06E26C12FE8"
+   coords 2.851 0.1 -3.831
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2B00"
+   coords 2.709 0 -2.21
+  }
+ }
+}
+StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+ components {
+  Hierarchy "{5CCCBEF0E7D1350C}" {
+   Enabled 1
+  }
+ }
+ coords 7605.314 0.018 4521.362
+ angleY -168.376
+}
+GenericEntity FIA_Car_38 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 7591.484 163.201 4518.732
+ angleX -1.266
+ angleY -135.158
+ angleZ 0.004
+}
+StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
+ components {
+  Hierarchy "{5CCCBEF31A89F2BF}" {
+   Enabled 1
+  }
+ }
+ coords 7605.167 -0.202 4521.281
+ angleY -65.344
+}

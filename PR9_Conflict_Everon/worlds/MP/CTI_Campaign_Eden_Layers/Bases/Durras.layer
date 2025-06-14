@@ -1,0 +1,259 @@
+GenericEntity : "{0C97A65A7FC44EFC}Prefabs/Compositions/Misc/SubCompositions/Building/House_Town_E_2I01_FIA_01.et" {
+ coords 8806.623 102.775 2740.502
+ angleY 74.7
+}
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ CIV_Small_or_Large_12 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 8705.245 114.096 3056.142
+  angleY -135.044
+ }
+ CIV_Small_or_Large_13 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 8821.812 95.364 2779.583
+  angleY 158.654
+ }
+ CIV_Small_or_Large_14 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 8862.33 92.797 2620.671
+  angleY 76.081
+ }
+ CIV_Small_or_Large_15 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 9003.124 83.202 2205.075
+  angleY 40.271
+ }
+}
+GenericEntity MainTent_Durras : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-MapLocation_Durras"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Durras-UC"
+   m_sMapLocationName "C_LocationDurras"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 8895.638 96.284 2709.183
+ angleY 67.698
+ angleZ -1.722
+}
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 8921.443 92.864 2624.49
+ angleY -169.766
+}
+GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
+ coords 8830.251 94.754 2732.313
+ angleY 145.413
+ {
+  GenericEntity {
+   ID "5CC6B4BF606E2876"
+   coords -2.487 0.109 -1.15
+   angleY 88.49
+  }
+  GenericEntity {
+   ID "5CC6B4BF606E2850"
+   coords 1.255 -0.01 -1.752
+   angleY -102.765
+  }
+ }
+}
+GenericEntity : "{3D557628BAFA671C}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_01_FIA_01.et" {
+ coords 8747.041 103.534 2829.624
+ angleY 67
+}
+GenericEntity : "{60F851178E5A1E0F}Prefabs/Compositions/Misc/SubCompositions/Building/Barn_E_02_FIA_01.et" {
+ coords 8906.745 96.066 2810.668
+ angleY -34.382
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 8902.373 96.142 2684.879
+ angleY -106.93
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 8885.481 95.157 2756.451
+ angleY -10.422
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ AT_TEAM_FIA_19 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 8825.127 94.697 2740.803
+  angleX -1.964
+  angleY 164.397
+  angleZ -0.38
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0.002 0.269 6.947
+    angleX -1.789
+    angleY -164.376
+    angleZ -0.895
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_17 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 8713.173 120.067 3191.352
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 71.217 10.123 37.559
+    }
+    {
+     coords 107.429 17.598 106.306
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ FIA_Car_8 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     50
+    }
+    m_aExcludedEditableEntityLabels {
+     21
+    }
+   }
+  }
+  coords 9054.544 117.975 2688.393
+  angleX 7.063
+  angleY -0.666
+  angleZ -5.397
+ }
+ FIA_Car_9 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     50
+    }
+    m_aExcludedEditableEntityLabels {
+     21
+    }
+   }
+  }
+  coords 8910.895 96.312 2735.259
+  angleX 2.226
+  angleY -167.307
+  angleZ 2.334
+ }
+ FIA_Car_10 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     50
+    }
+    m_aExcludedEditableEntityLabels {
+     21
+    }
+   }
+  }
+  coords 8825.435 95.321 2767.429
+  angleX 1.704
+  angleY 31.826
+  angleZ -1.049
+ }
+}
+GenericEntity : "{D523CF2B952C71A9}Prefabs/Compositions/Locations/Eden/SupplyCache_Durras_FIA_01.et" {
+ coords 8826.849 94.671 2745.832
+}
+GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+ coords 8824.232 94.783 2727.977
+ angleX 0.272
+ angleY 156.007
+ angleZ 0.364
+ {
+  GenericEntity {
+   ID "5CC6B48E65457D2D"
+   coords 2.922 0.16 -1.947
+   angleY -13.651
+  }
+  GenericEntity {
+   ID "5CC6B48E65457D11"
+   coords 1.054 0.1 -0.693
+  }
+  GenericEntity {
+   ID "5CC6B48E65457D0D"
+   coords 3.365 0.161 -1.872
+   angleY 24.374
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     coords 0 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4BF3343B4E9"
+   coords -2.737 -0.018 -2.404
+   angleY -74.916
+  }
+  GenericEntity {
+   ID "5E5AD06EF546637B"
+   coords 3.072 0.137 -4.403
+   angleY -103.077
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457D46"
+   coords 4.014 0.159 -2.569
+   angleY -20.063
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457AD1"
+   coords 3.205 0.157 -2.748
+   angleY -78.438
+  }
+ }
+}

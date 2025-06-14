@@ -1,0 +1,91 @@
+GenericEntity CIV_Small_or_Large_59 : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_iRespawnPeriod 600
+   m_aIncludedEditableEntityLabels {
+    36 37
+   }
+   m_aExcludedEditableEntityLabels {
+    51 52
+   }
+  }
+ }
+ coords 7078.355 115.48 5378.51
+ angleY -1.925
+}
+GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
+ coords 7093.163 116.934 5439.261
+ angleY -110.046
+ {
+  GenericEntity {
+   ID "5CC6B4BF606E2876"
+   coords -1.829 0.093 -1.133
+   angleY 88.49
+  }
+  GenericEntity {
+   ID "5CC6B4BF606E2850"
+   coords 1.256 -0.001 -1.752
+   angleY -102.765
+  }
+ }
+}
+GenericEntity AT_TEAM_FIA_24 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType TEAM_AT
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 7102.776 117.245 5437.972
+ angleY -123.931
+ {
+  SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+   coords 0.654 -0.119 6.723
+   angleY 140.936
+  }
+ }
+}
+GenericEntity FIA_Car_1 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 7112.284 117.013 5448.011
+ angleZ -2.684
+}
+StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+ coords 7097.957 0 5426.217
+ angleY -93.048
+}
+GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+ coords 7095.472 117.029 5430.207
+ angleX -0.109
+ angleY -130.1
+ angleZ 1.262
+}
+$grp StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
+ {
+  components {
+   Hierarchy "{5CCCBEF313566EFF}" {
+    Enabled 1
+   }
+  }
+  coords 7099.184 -0.346 5425.8
+  angleY -58.583
+ }
+ {
+  components {
+   Hierarchy "{5CCCBEF313566EFF}" {
+    Enabled 1
+   }
+  }
+  coords 7096.707 -0.204 5426.541
+  angleY -72.176
+ }
+}

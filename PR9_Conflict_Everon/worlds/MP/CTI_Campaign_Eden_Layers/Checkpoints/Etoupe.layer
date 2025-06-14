@@ -1,0 +1,123 @@
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ CIV_Small_or_Large_4 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 5573.103 22.734 10061.277
+  angleY -164.425
+ }
+ CIV_Small_or_Large_3 {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     36 37
+    }
+    m_aExcludedEditableEntityLabels {
+     51 52
+    }
+   }
+  }
+  coords 5346.197 16.855 10092.696
+  angleY 153.468
+ }
+}
+GenericEntity AT_TEAM_FIA_22 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType TEAM_AT
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 5383.715 20.18 9964.575
+ angleX -1.986
+ angleY -70.464
+ angleZ 0.245
+ {
+  SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+   coords 0.424 0 6.672
+   angleX 0.895
+   angleY 70.474
+   angleZ 1.79
+  }
+ }
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 5379.385 20.018 9966.256
+ angleX -2.826
+ angleY -74.278
+ angleZ 0.134
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2BA0"
+   coords -2.552 0 1.319
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2BF4"
+   coords -2.133 0 3.206
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2B94"
+   coords -2.009 0 1.328
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     coords 0.001 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B48B9C8C2A7C"
+   coords 2.142 0.26 -2.142
+  }
+  GenericEntity {
+   ID "5E5AD06E26C12FE8"
+   coords 2.403 0.1 -4.142
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2BDB"
+   coords -2.808 0 1.645
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2A48"
+   coords -2.196 0 2.533
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2B00"
+   coords 2.262 0 -2.521
+  }
+ }
+}
+StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+ components {
+  Hierarchy "{5CCCBEF0E7CED53C}" {
+   Enabled 1
+  }
+ }
+ coords 5372.84 -0.082 9963.026
+ angleY -31.436
+}
+GenericEntity FIA_Car_36 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 5373.131 19.296 9978.16
+ angleX -9.226
+ angleY 11.376
+ angleZ 0.856
+}

@@ -1,0 +1,239 @@
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ SENTRY_TEAM_FIA_14 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 7978.982 209.85 4277.094
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 228.157 7.764 89.431
+    }
+    {
+     coords -0.354 -0.025 0.441
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_60 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 2722.958 46.293 6822.088
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -101.849 2.732 107.945
+    }
+    {
+     coords -125.779 9.845 203.694
+    }
+    {
+     coords -244.809 8.444 102.202
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_62 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 4064.88 23.542 9016.972
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 100.344 2.398 11.223
+    }
+    {
+     coords 155.378 11.927 -80.735
+    }
+    {
+     coords 52.447 10.293 -64.099
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_65 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 6370.154 74.126 8459.67
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 12.352 1.995 -81.428
+    }
+    {
+     coords -88.297 43.684 -233.071
+    }
+    {
+     coords -284.002 -27.587 -97.032
+    }
+    {
+     coords -115.675 -9.66 -16.98
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_66 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 6495.759 168.117 7577.241
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 23.766 -13.265 -459.383
+    }
+    {
+     coords -51.891 -7.301 -463.443
+    }
+    {
+     coords -147.865 6.753 -52.112
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_67 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 7145.99 61.097 7105.802
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 62.941 -7.696 19.46
+    }
+    {
+     coords 161.052 -30.117 92.89
+    }
+    {
+     coords 85.041 -13.333 69.396
+    }
+    {
+     coords 144.078 -33.07 156.602
+    }
+    {
+     coords 35.663 -8.536 151.419
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_68 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 7781.792 2.343 5874.433
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -275.589 3.744 175.296
+    }
+    {
+     coords -392.79 4.018 573.929
+    }
+    {
+     coords -198.315 -0.57 192.757
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_73 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 6980.352 58.329 3486.074
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -44.973 -17.826 -108.841
+    }
+    {
+     coords -66.5 -25.911 71.633
+    }
+    {
+     coords 38.623 7.281 17.75
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_74 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 7563.323 195.156 2523.088
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -27.891 -12.451 -43.416
+    }
+    {
+     coords -145.166 -47.477 -88.782
+    }
+    {
+     coords -231.688 -56.124 -20.975
+    }
+    {
+     coords -236.465 -47.577 85.871
+    }
+    {
+     coords -109.596 -15.093 120.356
+    }
+   }
+  }
+ }
+ SENTRY_TEAM_FIA_77 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 8282.405 269.128 2569.883
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 13.715 -23.265 -102.484
+    }
+    {
+     coords -83.78 -0.44 -146.365
+    }
+    {
+     coords -119.057 28.474 -106.392
+    }
+    {
+     coords -101.104 61.042 0.78
+    }
+    {
+     coords -127.988 92.477 132.856
+    }
+    {
+     coords -147.78 87.27 196.917
+    }
+    {
+     coords -45.76 46.895 227.042
+    }
+    {
+     coords -52.977 54.234 139.927
+    }
+   }
+  }
+ }
+}

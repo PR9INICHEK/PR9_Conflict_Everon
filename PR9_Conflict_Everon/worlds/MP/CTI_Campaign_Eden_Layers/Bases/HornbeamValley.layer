@@ -1,0 +1,134 @@
+GenericEntity MainTent_HornbeamValley : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_sBaseName "#AR-Campaign_MapLocation_HornbeamValley"
+   m_sBaseNameUpper "#AR-MapLocation_HornbeamValley"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_fMaximumSeizingTime 120
+   m_fMinimumSeizingTime 30
+  }
+ }
+ coords 5376.891 25.469 8334.043
+ angleY -54.336
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ FIRE_TEAM_FIA_10 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 5329.865 26.626 8396.682
+ }
+ SENTRY_TEAM_FIA_64 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 5608.667 69.549 8162.819
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -128.143 5.25 -209.286
+    }
+    {
+     coords -481.114 73.786 -647.422
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ {
+  coords 5435.013 19.697 8354.918
+  angleY 82.971
+  {
+   GenericEntity {
+    ID "5CC6B48B9C8C2BA0"
+    coords -2.251 0 0.8
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2BF4"
+    coords -1.831 0 2.687
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2B94"
+    coords -1.708 0 0.809
+    {
+     DecalEntity {
+      ID "56E0B29F4975B6A9"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2A7C"
+    coords 3.399 0.279 -3.061
+   }
+   GenericEntity {
+    ID "5CC6B4BF288B3FF4"
+    coords -2.137 -0.085 -0.526
+    angleY -104.623
+   }
+   GenericEntity {
+    ID "5E5AD06E26C12FE8"
+    coords 3.141 0.029 -5.07
+    angleY -55.621
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2BDB"
+    coords -2.506 0 1.126
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2A48"
+    coords -1.894 0 2.014
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2B00"
+    coords 3.517 0.019 -3.44
+   }
+  }
+ }
+ {
+  coords 5341.677 24.918 8423.963
+  angleX 2.516
+ }
+}
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 5406.823 22.004 8343.621
+  angleX -5.019
+  angleY 38.523
+  angleZ 0.569
+ }
+ {
+  coords 5348.062 26.403 8362.666
+  angleX -5.335
+  angleY -0.334
+  angleZ 3.592
+ }
+ {
+  coords 5359.073 30.227 8283.862
+  angleY 126.21
+  angleZ -7.656
+ }
+}
+GenericEntity FIA_Car_14 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    50
+   }
+   m_aExcludedEditableEntityLabels {
+    21
+   }
+  }
+ }
+ coords 5369.944 25.736 8354.39
+ angleX -0.152
+ angleY 109.415
+ angleZ -7.602
+}

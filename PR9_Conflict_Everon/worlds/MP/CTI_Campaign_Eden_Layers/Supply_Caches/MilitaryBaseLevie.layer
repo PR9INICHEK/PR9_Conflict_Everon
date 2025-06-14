@@ -1,0 +1,55 @@
+GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ coords 7841.875 254.531 4029.39
+ angleY -32.721
+}
+$grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ {
+  coords 7890.57 256.625 4006.571
+  angleY -51.694
+ }
+ {
+  coords 7829.86 254.531 4020.952
+  angleY -35.585
+ }
+}
+GenericEntity SENTRY_TEAM_FIA_36 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_fAILimitThreshold 0.33
+  }
+ }
+ coords 7891.401 256.247 4046.83
+ {
+  $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+   {
+    coords -124.433 -3.91 -109.818
+   }
+   {
+    coords -190.989 -20.979 -23.326
+   }
+   {
+    coords -131.391 -10.379 22.79
+   }
+   {
+    coords -84.101 -15.28 96.49
+   }
+   {
+    coords 27.777 -11.685 86.851
+   }
+  }
+ }
+}
+$grp GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
+ {
+  coords 7877.662 256.625 3992.119
+  angleY -51.231
+ }
+ {
+  coords 7833.848 254.531 4040.59
+  angleY 56.334
+ }
+}
+GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ coords 7817.885 254.531 4030.388
+ angleY 145.234
+}

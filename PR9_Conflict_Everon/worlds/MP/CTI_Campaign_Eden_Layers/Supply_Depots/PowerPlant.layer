@@ -1,0 +1,137 @@
+GenericEntity CIV_Small_or_Large_82 : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_iRespawnPeriod 600
+   m_aIncludedEditableEntityLabels {
+    36 37
+   }
+   m_aExcludedEditableEntityLabels {
+    51 52
+   }
+  }
+ }
+ coords 5826.092 4.563 9798.514
+ angleY 75.542
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ SENTRY_TEAM_FIA_12 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 5876.413 13.582 9951.999
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 68.02 -2.758 -84.772
+    }
+    {
+     coords -0.38 -0.365 -4.369
+    }
+   }
+  }
+ }
+ FIRE_TEAM_FIA_12 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 5838.166 4.563 9795.078
+ }
+ SENTRY_TEAM_FIA_25 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 5751.276 29.497 10215.265
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 7.926 5.158 218.609
+    }
+    {
+     coords 0.021 -0.034 -0.027
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{D3BED8377828FFCC}Prefabs/Compositions/Locations/Eden/Base_PowerPlant_FIA_01.et" {
+ coords 5834.383 4.572 9786.422
+ {
+  GenericEntity {
+   ID "5E68E844F3143B06"
+   {
+    GenericEntity {
+     ID "5E68FBDF902BB99C"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5E68EB2C6044E7F4"
+       Flags 1049603
+       {
+        GenericEntity {
+         ID "5D36C61EF5BF6C53"
+         Flags 1049603
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5E6ACA2FF01AEC79"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF01AEC87"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF01AEC94"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF01AECB2"
+     Flags 1048579
+    }
+    GenericEntity {
+     ID "5E6ACA2FF01AECDF"
+     Flags 1048579
+    }
+    SCR_SpawnPoint {
+     ID "5E6ACA2FF01AEC42"
+     Flags 1048579
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2D39A925C6"
+   Flags 1049603
+   {
+    GenericEntity {
+     ID "5E68EB2C6044E7F4"
+     Flags 1049603
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 1049603
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E68E844F3143459"
+   {
+    GenericEntity {
+     ID "5E3A7317BA3C0924"
+     Flags 1049603
+    }
+   }
+  }
+ }
+}
